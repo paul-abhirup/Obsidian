@@ -1,0 +1,301 @@
+{
+  "main": {
+    "id": "81f203fddd4cfc02",
+    "type": "split",
+    "children": [
+      {
+        "id": "ebbc5800ccb658a7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9a4fad381fcea596",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Web Development/postgres.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a1845c37d9f165b8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Web Development/Serverless backend.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5c06e9da38708e60",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Web Development/Reactjs/1 React Deep Dive.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a69c023ba8105c3e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "note taking.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6e1acbc19c32d1ca",
+    "type": "split",
+    "children": [
+      {
+        "id": "dc6833027ba3f78f",
+        "type": "tabs",
+        "dimension": 71.15768463073853,
+        "children": [
+          {
+            "id": "0cdd5c69106b5c52",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "db1a08a8236fb353",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#Done",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "0c8f4f274ae66350",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "2ac775321c8693c1",
+        "type": "tabs",
+        "dimension": 28.842315369261478,
+        "children": [
+          {
+            "id": "0cdc9b2da87df4c2",
+            "type": "leaf",
+            "state": {
+              "type": "timer-view",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 258
+  },
+  "right": {
+    "id": "51c96f36758cc938",
+    "type": "split",
+    "children": [
+      {
+        "id": "3db29a5e75d77c76",
+        "type": "tabs",
+        "dimension": 61.38698630136986,
+        "children": [
+          {
+            "id": "b72daf7ed9be8d02",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "fc369391cc7b1159",
+            "type": "leaf",
+            "state": {
+              "type": "full-calendar-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "28c4adb66340afa2",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "96ae89d9cf1c536b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Web Development/Reactjs/1 React Deep Dive.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "12f5a6655e71dbee",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Web Development/Reactjs/1 React Deep Dive.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "59f60a642b6d7ba0",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          },
+          {
+            "id": "d55947e3e5cb906c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Web Development/Reactjs/1 React Deep Dive.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "80cffb35488acdaf",
+        "type": "tabs",
+        "dimension": 38.61301369863014,
+        "children": [
+          {
+            "id": "be7abcf5ea8bb47c",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 353
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "audio-recorder:Start/stop recording": false,
+      "random-note:Open random note": false,
+      "zk-prefixer:Create new unique note": false,
+      "pomodoro-timer:Toggle timer panel": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-kanban:Create new board": false,
+      "obsidian-full-calendar:Open Full Calendar": false
+    }
+  },
+  "active": "5c06e9da38708e60",
+  "lastOpenFiles": [
+    "Web Development/Serverless backend.md",
+    "Web Development/Reactjs/1 React Deep Dive.md",
+    "Web Development/Reactjs/DOM.md",
+    "note taking.md",
+    "Web Development/postgres.md",
+    "Web Development/DevOps Roadmap.md",
+    "Daily/2024-06-28.md",
+    "Improvement.md",
+    "Daily/2024-06-27.md",
+    "Web Development/MERN Projects Ideas and resources.md",
+    "videos to learn.md",
+    "binge watch videos.md",
+    "AI tools.md",
+    "Untitled.md",
+    "999 templates/Daily template.md",
+    "Daily/2024-06-26.md",
+    "Daily/2024-06-25.md",
+    "Kanban.md",
+    "Cohort 0-100.md",
+    "Daily/2024-06-12.md",
+    "Welcome.md",
+    "Web Development/Javascript/async promises.md",
+    "Daily/2024-01-09.md",
+    "Web Development/Node Js.md",
+    "Web Development/Javascript/javascript1 by piyush.md",
+    "webDevelopment.md",
+    "WEB-3",
+    "DSA",
+    "Untitled.canvas",
+    "Excalidraw",
+    "Startup diaries",
+    "Web Development/Assets/Pasted image 20240127021202.png",
+    "Web Development/Assets",
+    "Web Development/Assets/Pasted image 20240127012230.png",
+    "DEVops",
+    "Backend",
+    "Web Development/Reactjs/React Fundamentals",
+    "Web Development/Reactjs",
+    "Web Development/Javascript"
+  ]
+}

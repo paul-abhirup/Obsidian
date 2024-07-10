@@ -1,0 +1,155 @@
+```jsx
+//Instead  // const fs = require ('fs')  
+
+//creating a http server using express
+//express dont come by default in a node 
+const express = require("express");
+
+//creating the clinic
+const app = express();
+
+/**   Assignment
+ * create a in memory hospital [in-memory server : server that is not using a database]
+ * You need to create 4 routes (4 things that the hospital can do)
+1. GET - User can check how many kidneys they have and their health
+2. POST - User can add a new kidney
+3. PUT - User can replace a kidney, make it healthy
+4. DELETE - User can remove a kidney
+ */
+
+
+
+const users = [{
+    name: "John",
+    kidneys: [{
+        healthy: false
+    }]
+}];
+
+//bodyparser middleware 
+// parses incoming req
+app.use(bodyParser.json());
+//anytime there is json in the body of req this is used to deal with it 
+
+//JSON parsing middleware
+app.use(express.json());
+//parses incoming requests with json payload
+//for json body in the server
+
+
+
+
+// introducing routes in express
+// query parameters are true for GET request -- to send data by the user
+app.get("/", function (req, res) {
+    const johnKidneys = users[0].kidneys;
+    const numberOfKidneys = johnKidneys.length;
+    let numberOfHealthyKidneys = 0;
+    for (let i = 0; i < johnKidneys.length; i++) {
+        if (johnKidneys[i].healthy) {
+            numberOfHealthyKidneys = numberOfHealthyKidneys + 1;
+        }
+    }
+    const numberOfUnhealthyKidneys = numberOfKidneys - numberOfHealthyKidneys;
+    res.json({
+        numberOfKidneys,
+        numberOfHealthyKidneys,
+        numberOfUnhealthyKidneys
+    })
+})
+
+
+
+
+
+//for post request data are being send in the body
+app.post("/",function (req, res){
+   // console.log(req.body);   //this will be (undefined) without app.use(express.json());
+   
+    const isHealthy = req.body.isHealthy;
+    
+    //this line extracts the value of `isHealthy` property from the request body(`req.body`)
+    //in express when u recieve data in PUT or POST request, it`s often sent in the request body.
+    // this is essentially creating a variable `isHealthy` and assign it the value of `req.body.isHealthy`
+
+
+    users[0].kidneys.push({
+        healthy: isHealthy
+    })
+    
+    //access the kidney array inside the user array and pushes      an object in it
+    //the object has a `healthy` property and its value is            assigned to the prev extracted `isHealthy` variable
+
+
+    res.json({
+        msg: "Done!"
+    })
+})
+
+//on multiple post requests the get request gets updated
+//ex- 
+//{"numberOfKidneys":13,"numberOfHealthyKidneys":12,"numberOfUnhealthyKidneys":1}
+//here its imp u use `app.use(express.json())`
+//without it `isHealthy` is will be classified as `undefined`
+
+
+
+
+// 411
+app.put("/", function (req, res) {
+    for (let i = 0; i < users[0].kidneys.length; i++) {
+        users[0].kidneys[i].healthy = true;
+    }
+    res.json({});// if dont res back the request will hung
+})
+// any time u restart the process the user array gets reset 
+// so we need datatbases to store user data ,because an in memory can easily lose data if the backend gets down
+
+
+
+
+
+// removing all the unhealthy kidneys
+app.delete("/", function (req, res) {
+// atleast 1 unhealthy kidney is there do this, else return 411
+
+    if (isThereAtleastOneUnhealthyKidney()) {
+        const newKidneys = [];
+        for (let i = 0; i < users[0].kidneys.length;i++) {
+            if (users[0].kidneys[i].healthy) {
+                newKidneys.push({
+                    healthy: true
+                })
+            }
+        }
+        users[0].kidneys = newKidneys;
+        res.json({ msg: "done" })
+    } else {
+        res.status(411).json({
+            msg: "You have no bad kidneys"
+        });
+    }
+})
+
+
+
+
+
+function isThereAtleastOneUnhealthyKidney() {
+    let atleastOneUnhealthyKidney = false;
+    for (let i = 0; i < users[0].kidneys.length; i++) {
+        if (!users[0].kidneys[i].healthy) {
+            atleastOneUnhealthyKidney = true;
+        }
+    }
+    return atleastOneUnhealthyKidney
+}
+
+
+
+
+//listening a specific port
+//doctor siting in a room
+app.listen(3000);
+
+```

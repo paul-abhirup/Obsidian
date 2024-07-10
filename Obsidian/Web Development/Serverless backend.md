@@ -1,0 +1,102 @@
+[Serverless Backend](https://projects.100xdevs.com/tracks/eooSv7lnuwBO6wl9YA5w/serverless-1) notes
+
+CRUX
+
+using cloudfare gui worker to deploy app
+
+```jsx
+export default {
+async fetch(request, env, ctx): Promise<Response> {
+	return new Response('Hello World!');
+},
+} satisfies ExportedHandler<Env>;
+```
+
+```js
+// return a json response
+export default {
+	async fetch(request: Request, env: Env, ctx: ExecutionContext): Promise<Response> {
+		return Response.json({
+			message: "hi"
+		});
+	},
+};
+```
+
+```js
+
+//routing is difficult to implement in workers like this way 
+// no clean routing like express
+//app.get()
+//app.post()
+ 
+export default {
+	async fetch(request: Request, env: Env, ctx: ExecutionContext): Promise<Response> {
+		console.log(request.body);
+		console.log(request.headers);
+		console.log(request.method);
+
+		// handles the get request
+		if (request.method === "GET") {
+			return Response.json({
+				message: "you sent a get request"
+			});
+		} else {
+			return Response.json({
+				message: "you did not send a get request"
+			});
+		}
+	},
+};
+
+
+```
+
+cloudfare doesn't gives a routing library / http server like express in nodeJs
+
+classic serverless - one that doesnt have their own runtime
+
+hono - routing engine that helps to route like express
+
+creating hono app
+
+```ts
+import { Hono } from 'hono'
+
+const app = new Hono()
+
+// (c) = context object
+// c worksd as both as (req,res)
+app.get('/get', (c) => {
+  // body, headers, query params, middlewares, connecting to a database, etc
+  return c.json({
+    msg:'Hello Hono!'
+  });
+})
+
+app.post('/post', (c) => {
+  return c.text('Hello Hono!')
+})
+
+export default app
+
+```
+
+```js
+import { Hono } from 'hono'
+
+const app = new Hono()
+
+// fetch => await json
+app.get('/', async (c) => {
+  const body = await c.req.json()
+  console.log(body);
+  console.log(c.req.header("Authorization"));
+  console.log(c.req.query("param"));
+
+  return c.text('Hello Hono!')
+})
+
+export default app
+```
+
