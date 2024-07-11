@@ -47,6 +47,19 @@
             }
           },
           {
+            "id": "b60694a988359133",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Web Development/Reactjs/React Hooks.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "a69c023ba8105c3e",
             "type": "leaf",
             "state": {
@@ -60,7 +73,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -170,7 +183,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web Development/Reactjs/1 React Deep Dive.md",
+                "file": "Web Development/Reactjs/React Hooks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +200,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web Development/Reactjs/1 React Deep Dive.md",
+                "file": "Web Development/Reactjs/React Hooks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -211,7 +224,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web Development/Reactjs/1 React Deep Dive.md"
+                "file": "Web Development/Reactjs/React Hooks.md"
               }
             }
           }
@@ -256,12 +269,15 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "5c06e9da38708e60",
+  "active": "b60694a988359133",
   "lastOpenFiles": [
-    "Web Development/Serverless backend.md",
     "Web Development/Reactjs/1 React Deep Dive.md",
-    "Web Development/Reactjs/DOM.md",
+    "Web Development/Reactjs/React Hooks.md",
     "note taking.md",
+    "Web Development/Yaml.md",
+    "Web Development/Serverless backend.md",
+    "Excalidraw/Drawing 2024-07-10 22.26.36.excalidraw.md",
+    "Web Development/Reactjs/DOM.md",
     "Web Development/postgres.md",
     "Web Development/DevOps Roadmap.md",
     "Daily/2024-06-28.md",
@@ -271,7 +287,6 @@
     "videos to learn.md",
     "binge watch videos.md",
     "AI tools.md",
-    "Untitled.md",
     "999 templates/Daily template.md",
     "Daily/2024-06-26.md",
     "Daily/2024-06-25.md",
@@ -282,8 +297,6 @@
     "Web Development/Javascript/async promises.md",
     "Daily/2024-01-09.md",
     "Web Development/Node Js.md",
-    "Web Development/Javascript/javascript1 by piyush.md",
-    "webDevelopment.md",
     "WEB-3",
     "DSA",
     "Untitled.canvas",

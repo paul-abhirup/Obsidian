@@ -309,9 +309,9 @@ function App() {
     <>
       <button onClick={addToDo}>Add a ToDo </button>
       {todos.map(todo => <ToDo key={todo.id} title={todo.title} description={todo.description} />)}
-      //keys are used to identify the elements in the list and to make the re-rendering faster 
+      //keys are used to uniquely identify the elements in the list and to make the re-rendering faster 
       //keys should be unique
-
+      //especially useful iterating over an array
     </>
   )
 }
@@ -327,6 +327,7 @@ export default App
 ```
 
 ## Wrapper Components
+they take inner react component as an input and renders it 
 ```jsx
 
 import React, { useState } from 'react'
@@ -345,7 +346,7 @@ function App(){
 
 function CardWrapper({innerComponent}){
   //create a div which has a border 
-  // and then render the inner component inside it
+  // inside the div render the props
 
   return <div style={{border:"2px solid black", padding: 20}}>
   {innerComponent}
@@ -379,37 +380,36 @@ import React, { useState } from 'react'
 
 function App(){
   return <div>
+  
     <CardWrapper>
     hi there
     </CardWrapper>
+    
     <CardWrapper>
     <div>
         hi there
     </div>
     </CardWrapper>
+    
     <CardWrapper>
     <TextComponent />
     </CardWrapper>
+    
     <CardWrapper>
       <CardWrapper>
         <TextComponent />
       </CardWrapper>
     </CardWrapper>
+    
   </div>
 }
-
-// <CardWrapper>
-//   <CardWrapper>
-//     <TextComponent />
-//   </CardWrapper>
-// </CardWrapper>  
 
 // ------------this is a nested wrapper component----///////
 
 // here the cardwrapper is the parent component and the cardwrapper inside it is the child component and the textcomponent inside it is the grandchild component[childcomponent of the child component]
 
 
-//children are every thing inside the <CardWrapper>...</CardWrapper> component
+//children has every thing inside the <CardWrapper>...</CardWrapper> component
 function CardWrapper({children}){
   return <div style={{border:"2px solid black", padding: 20}}>
   {children}
@@ -424,4 +424,32 @@ function TextComponent(){
 
 export default App
 
+```
+
+```jsx
+class NavBasic extends React.PureComponent{
+  static defaultProps = {
+    onBack: null 
+  };
+
+  //these are life cycle events 
+  //they used in understanding which components are being rendered
+  onComponentMount(){
+  }
+
+  onComponentUnMount(){
+  }
+
+  onRender(){    
+  }
+  
+  render(){
+    return(
+      <div>
+        
+      </div>
+    )
+  }
+  
+}
 ```
