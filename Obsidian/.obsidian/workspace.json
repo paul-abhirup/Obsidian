@@ -34,12 +34,25 @@
             }
           },
           {
+            "id": "a69c023ba8105c3e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "note taking.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "5c06e9da38708e60",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web Development/Reactjs/1 React Deep Dive.md",
+                "file": "Web Development/Reactjs/React Deep Dive.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -60,12 +73,12 @@
             }
           },
           {
-            "id": "a69c023ba8105c3e",
+            "id": "ad6570aa94fcb72b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "note taking.md",
+                "file": "Web Development/Reactjs/Context API, prop drilling.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -73,7 +86,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -183,7 +196,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web Development/Reactjs/React Hooks.md",
+                "file": "Web Development/Reactjs/Context API, prop drilling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -200,7 +213,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web Development/Reactjs/React Hooks.md",
+                "file": "Web Development/Reactjs/Context API, prop drilling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -224,7 +237,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web Development/Reactjs/React Hooks.md"
+                "file": "Web Development/Reactjs/Context API, prop drilling.md"
               }
             }
           }
@@ -269,10 +282,13 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "b60694a988359133",
+  "active": "ad6570aa94fcb72b",
   "lastOpenFiles": [
-    "Web Development/Reactjs/1 React Deep Dive.md",
     "Web Development/Reactjs/React Hooks.md",
+    "Web Development/Reactjs/Context API, prop drilling.md",
+    "Web Development/Reactjs/React Deep Dive.md",
+    "Web Development/Reactjs/Custom Hooks.md",
+    "Web Development/Reactjs/Recoil.md",
     "note taking.md",
     "Web Development/Yaml.md",
     "Web Development/Serverless backend.md",
@@ -294,9 +310,6 @@
     "Cohort 0-100.md",
     "Daily/2024-06-12.md",
     "Welcome.md",
-    "Web Development/Javascript/async promises.md",
-    "Daily/2024-01-09.md",
-    "Web Development/Node Js.md",
     "WEB-3",
     "DSA",
     "Untitled.canvas",

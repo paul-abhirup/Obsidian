@@ -2,10 +2,14 @@
   "accentColor": "#704cc2",
   "theme": "obsidian",
   "cssTheme": "AnuPpuccin",
-  "baseFontSize": 18,
-  "nativeMenus": false,
+  "baseFontSize": 20,
+  "nativeMenus": true,
   "textFontFamily": "JetBrainsMono Nerd Font Propo",
-  "enabledCssSnippets": [],
+  "enabledCssSnippets": [
+    "Colored Sidebar Items",
+    "tranparent",
+    "custom-rainbow-colors"
+  ],
   "showViewHeader": true,
   "baseFontSizeAction": true
 }

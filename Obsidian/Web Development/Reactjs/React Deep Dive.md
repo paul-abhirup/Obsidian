@@ -1,4 +1,8 @@
 ## React-Returns
+
+create a react app that has a header component 
+- that take title as a prop and renders it inside a div
+- App renders more than 1 Header 
 ```jsx
 import React, { useState } from 'react'
 
@@ -19,9 +23,21 @@ function App() {
       <Header title="harkirat3" />  
       <Header title="harkirat4" />  
       </>
-    //here the parent <></>, ie React Fragment
+      
+      //here the parent <> </>, ie React Fragment
+      // <React.Fragment> </React.Fragment>
 	//is returning multiple children component
 	//this helps in returning multiple children
+
+//// or 
+	 <div>     
+      <Header title="harkirat1" />  
+      <Header title="harkirat2" />  
+      <Header title="harkirat3" />  
+      <Header title="harkirat4" />  
+      </div>
+		//ie //child component should have atleast 1 parent component
+    
   )
 }
 
@@ -35,7 +51,7 @@ export default App
 
 ```
 
-<React.Fragment></React.Fragment>
+
 
 ## Re-rendering in React
 ```jsx
@@ -272,6 +288,11 @@ function ToDo({title,description}){
 
 problem here is that 
 Warning: Each child in a list should have a unique "key" prop
+
+key lets react figure out if 
+- the todo has been updated 
+- if its is deleted 
+- it its been added
 ## React Keys
 ```jsx
 //// Keys in React [todo app] ////
