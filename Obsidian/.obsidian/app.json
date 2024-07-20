@@ -5,5 +5,6 @@
   "showInlineTitle": true,
   "vimMode": false,
   "showLineNumber": false,
-  "readableLineLength": true
+  "readableLineLength": true,
+  "spellcheck": false
 }

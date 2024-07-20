@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ebbc5800ccb658a7",
+        "id": "da323026582d22fe",
         "type": "tabs",
         "children": [
           {
-            "id": "9a4fad381fcea596",
+            "id": "73f23263154d67b1",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,74 +19,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "a1845c37d9f165b8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Web Development/Serverless backend.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a69c023ba8105c3e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "note taking.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5c06e9da38708e60",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Web Development/Reactjs/React Deep Dive.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b60694a988359133",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Web Development/Reactjs/React Hooks.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ad6570aa94fcb72b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Web Development/Reactjs/Context API, prop drilling.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +32,7 @@
       {
         "id": "dc6833027ba3f78f",
         "type": "tabs",
-        "dimension": 71.15768463073853,
+        "dimension": 72.88602941176471,
         "children": [
           {
             "id": "0cdd5c69106b5c52",
@@ -138,7 +72,7 @@
       {
         "id": "2ac775321c8693c1",
         "type": "tabs",
-        "dimension": 28.842315369261478,
+        "dimension": 27.113970588235293,
         "children": [
           {
             "id": "0cdc9b2da87df4c2",
@@ -152,7 +86,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 258
+    "width": 244
   },
   "right": {
     "id": "51c96f36758cc938",
@@ -161,7 +95,7 @@
       {
         "id": "3db29a5e75d77c76",
         "type": "tabs",
-        "dimension": 61.38698630136986,
+        "dimension": 56.49867374005305,
         "children": [
           {
             "id": "b72daf7ed9be8d02",
@@ -196,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web Development/Reactjs/Context API, prop drilling.md",
+                "file": "Web Development/postgres.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -213,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web Development/Reactjs/Context API, prop drilling.md",
+                "file": "Web Development/postgres.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -237,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web Development/Reactjs/Context API, prop drilling.md"
+                "file": "Web Development/postgres.md"
               }
             }
           }
@@ -247,7 +181,7 @@
       {
         "id": "80cffb35488acdaf",
         "type": "tabs",
-        "dimension": 38.61301369863014,
+        "dimension": 43.50132625994695,
         "children": [
           {
             "id": "be7abcf5ea8bb47c",
@@ -261,7 +195,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 353
+    "width": 354
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -275,53 +209,53 @@
       "random-note:Open random note": false,
       "zk-prefixer:Create new unique note": false,
       "pomodoro-timer:Toggle timer panel": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "templater-obsidian:Templater": false,
       "obsidian-kanban:Create new board": false,
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "ad6570aa94fcb72b",
+  "active": "73f23263154d67b1",
   "lastOpenFiles": [
-    "Web Development/Reactjs/React Hooks.md",
-    "Web Development/Reactjs/Context API, prop drilling.md",
-    "Web Development/Reactjs/React Deep Dive.md",
-    "Web Development/Reactjs/Custom Hooks.md",
-    "Web Development/Reactjs/Recoil.md",
-    "note taking.md",
-    "Web Development/Yaml.md",
-    "Web Development/Serverless backend.md",
-    "Excalidraw/Drawing 2024-07-10 22.26.36.excalidraw.md",
-    "Web Development/Reactjs/DOM.md",
+    "Web Development/Web Design.md",
     "Web Development/postgres.md",
-    "Web Development/DevOps Roadmap.md",
-    "Daily/2024-06-28.md",
-    "Improvement.md",
-    "Daily/2024-06-27.md",
-    "Web Development/MERN Projects Ideas and resources.md",
+    "Web Development/node js/NodeJS 2.md",
+    "Web Development/Deployment/Serverless backend.md",
+    "Web Development/Deployment/AWS Deploying EC2.md",
+    "Web Development/Reactjs/Recoil Deep Dive.md",
+    "Web Development/Deployment",
+    "Web Development/Reactjs/Recoil.md",
+    "Web Development/Reactjs/React Deep Dive.md",
+    "Web Development/node js/Node Js.md",
+    "Web Development/Assets/Pasted image 20240127012230.png",
+    "Web Development/Assets/Pasted image 20240127021202.png",
+    "Web Development/node js",
     "videos to learn.md",
     "binge watch videos.md",
-    "AI tools.md",
-    "999 templates/Daily template.md",
-    "Daily/2024-06-26.md",
-    "Daily/2024-06-25.md",
-    "Kanban.md",
-    "Cohort 0-100.md",
-    "Daily/2024-06-12.md",
-    "Welcome.md",
+    "Obsidian/Learning Obsidian.md",
+    "Obsidian",
+    "Obsidian/Welcome.md",
+    "Obsidian/note taking.md",
+    "Excalidraw/Drawing 2024-07-10 22.26.36.excalidraw.md",
+    "Excalidraw/Drawing 2024-06-12 01.24.00.excalidraw.md",
+    "Web Development/Reactjs/React Hooks.md",
+    "Startup diaries/jobs/jobs1.md",
+    "Startup diaries/jobs/jobs.md",
+    "Startup diaries/jobs/20240109174.md",
+    "Web Development/Javascript/Strings.md",
+    "Web Development/Javascript/async promises.md",
+    "Web Development/Javascript/javascript by piyush.md",
+    "Web Development/Reactjs/Context API, prop drilling.md",
+    "Web Development/Reactjs/Custom Hooks.md",
+    "Web Development/Yaml.md",
     "WEB-3",
     "DSA",
     "Untitled.canvas",
     "Excalidraw",
     "Startup diaries",
-    "Web Development/Assets/Pasted image 20240127021202.png",
     "Web Development/Assets",
-    "Web Development/Assets/Pasted image 20240127012230.png",
     "DEVops",
-    "Backend",
-    "Web Development/Reactjs/React Fundamentals",
-    "Web Development/Reactjs",
-    "Web Development/Javascript"
+    "Backend"
   ]
 }

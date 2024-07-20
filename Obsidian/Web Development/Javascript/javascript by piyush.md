@@ -65,10 +65,9 @@ function sum(...numbers){
 let result = sum(12, 23, 34, 45, 45, 56, 56, 67, 76);
 console.log(result);
 
+```
 
-
-//================================================================
-
+``` jsx
 /*
  * ARROW FUNCTIONS
  */
@@ -208,9 +207,10 @@ here the parent scope is the global scope
 so the this keyword reffers to the global scope  
 */
 
-//==========================================================
+```
 
-
+## Higher order functions 
+```jsx
 
 /**
  * Higher order function and callbacks
@@ -265,6 +265,71 @@ students.push("alexa") // pushes element in the end of the array
 students.pop("alexa") // pops out element in the end of the array
 students.reverse();  //reverse the whole array
 
+```
 
+## Composition
+```jsx
+//composition
 
+function add(a, b) {
+  return a + b;
+}
+function square(val) {
+  return val * val;
+}
+function multiply(args) {
+  return args[0] * args[1];
+}
+// function addAndSquare(a, b) {
+//   return square(add(2, 3));
+// }
+
+// const addResult = add(2, 3);
+// console.log(square(addResult));
+
+// console.log(addAndSquare);
+
+// generic compose function syntax //
+// function composeTwoFunction(fn1, fn2) {
+//   return function (a, b) {
+//     return fn2(fn1(a, b));
+//   };
+// }
+
+// // using modern js
+// const c2f = (fn1, fn2) => (a, b) => fn2(fn1(a, b));
+
+// //example
+// const task = c2f(add, square);
+// console.log(task(2, 3));
+
+//for composing unlimited fns
+function compose(...fns) {
+  return function (...value) {
+    return fns.reduce((a, b) => b(a), value);
+  };
+}
+
+const composeAll =
+  (...fns) =>
+  (...val) =>
+    fns.reduce((a, b) => b(a), val);
+
+// const task = composeAll(add, square, (val) => val + 10);//NaN
+const task = composeAll(multiply, square, (val) => val + 10); //46
+
+console.log(task(2, 3));
+```
+
+# Closer
+```jsx
+
+function main() {
+  const name = "Paul";
+  function sayMyName() {
+    console.log(name);
+  }
+  sayMyName();
+}
+main();
 ```

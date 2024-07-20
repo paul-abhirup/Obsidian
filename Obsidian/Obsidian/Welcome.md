@@ -4,7 +4,6 @@ Make a note of something, [[Learning Obsidian]], or try [the Importer](https://h
 
 When you're ready, delete this note and make the vault your own.
 
-#LearningObisidan
 using vim for editing
 
 |                                                        |                          |

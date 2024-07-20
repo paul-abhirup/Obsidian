@@ -1,4 +1,3 @@
-[[webDevelopment]]
 #remotework
 #startupjobs
 Role and responsibilities:
