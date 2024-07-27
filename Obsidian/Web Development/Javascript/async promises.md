@@ -1,4 +1,6 @@
-refference - https://www.freecodecamp.org/news/javascript-async-await-tutorial-learn-callbacks-promises-async-await-by-making-icecream/
+refference -
+- https://www.freecodecamp.org/news/javascript-async-await-tutorial-learn-callbacks-promises-async-await-by-making-icecream/
+- https://www.jsv9000.app/
 
 async vs sync 
 sync works in a step by step manner 

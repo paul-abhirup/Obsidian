@@ -1,0 +1,150 @@
+## **FrontEnd**
+- React
+	- Reconcilation
+	- React Hooks
+		- useEffect
+		- useState
+		- 
+	- Custom Hooks
+	- React Router Dom
+- React State Management 
+	- Context API
+	- Recoil
+- React Styling
+	- ShadCN
+	- Tailwind
+- UI Library
+	- Acernity UI
+	- Material UI
+	- Next UI
+	- Magic Ui
+	- Eldora UI
+	- 
+- CSS
+	- flexbox
+	- tailwind
+
+## **Backend**
+- Express, HTTP
+	- http server
+	- Methods
+	- URL
+	- IPs and Domains
+	- Middleware
+	- Routing
+	- Http status codes
+	- global catches
+	- **Secret Management using Doppler
+- Axios, Fetch
+- Zod Validation
+- Auth - JWT
+- No-SQL
+	- DataBase, SQL vs Nosql
+	- MongoDB
+		- relationships in mongo
+		- transactions in mongo
+		- Aggregation Pipelines in mongo
+	- Mongoose
+		- ODM
+	- 
+- SQL
+	- Postgres
+	- creating schemas while dealing with SQL dbs
+	- Create Table
+	- SQL Queries (CRUD) Operation using quries
+	- Relationship, Transactions
+	- Joins, query
+	- Indexing
+	- Transaction and concurrency 
+	- Normalization
+	- Sub queries
+	- batch queries
+- ORMs
+	- Prisma, setup
+	- Schema generation with CRUD queries
+	- Transaction and Relationships in Prisma
+	- **Drizzle basics, setup Schema
+	- **Transaction and relationship in Drizzle
+- Deploying NPM packages
+- Monorepo, Turborepo, linting
+- **NextJS
+	- NextJS Frontend
+	- NextJS Backend
+	- NextAuth
+	- Middleware in NextJS
+- Auth using Cookies
+- CI/CD
+- Websockets
+- Advanced Backend Communication
+- TRPC
+- GraphQL
+- OpenAPI Specs
+- DDoS, Rate Limit 
+- Singleton Pattern, Pub Subs
+- Vertical Scaling
+- Scaling Node.Js app
+- WebRTC
+- GRPC
+- Testing in the MERN Stack
+- 
+
+
+## **TypeScript
+- Interfaces
+- Types
+- Arrays 
+- Enumeration
+- Generics 
+- Import, Export
+- 
+
+
+## **Deployment
+- Serverless
+	- cloudfare Workers
+	- Serverless Architechture, Cloudfare Workers working
+	- intializing worker using GUI and cli, running basic app in it
+	- Deployment in the internet ,Wrangler cli, 
+	- Hono App, routing
+	- Middlewares in hono
+	- connection pooling in serverless
+		- Prisma Accelerate --> pooling url
+	- deploying the app
+- AWS EC2
+	- EC2 instance, setup, etc
+	- keypair and ssh' ing into VM
+	- running a backend server in it
+	- ports in VM, https, http
+	- Nginx
+	- Reverse Proxies
+	- certificate management
+- 
+
+## **DevOPS
+- Docker
+	- Containerization
+	- Inside Docker -->Docker Engine, Docker CLI, Docker Registry
+	- Images, Containers
+	- Port Mapping( -p)
+	- Docker Commands
+		- docker images
+		- docker ps
+		- docker run 
+		- docker build
+		- docker push 
+		- docker kill
+		- docker exec 
+	- dockerfile
+	- Passing in env variables
+	- Pushing images to docker hub
+	- Layers in Dockerfile, Optimization
+	- Networks 
+	- Volumes( -v)
+	- Docker-Compose
+	- Bind Mount
+- Docker Swarm
+- Kafka
+- Kubernates
+- 
+
+

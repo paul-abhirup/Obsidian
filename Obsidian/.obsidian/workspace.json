@@ -8,19 +8,125 @@
         "type": "tabs",
         "children": [
           {
-            "id": "73f23263154d67b1",
+            "id": "c368e849c36da0b0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web Development/postgres.md",
+                "file": "Web Development/DataBase/Prisma.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
+          },
+          {
+            "id": "9faf69919ebcccf8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Web Development/DataBase/postgres.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0643f487e5759e41",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Web Development/Deployment/Serverless backend.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "193dfe8e04ea7362",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Web Development/Web Dev Track.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8e79d9ba082c5099",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Web Development/NextJS/NextJS.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dd4fe91348825c28",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tailwind CSS.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "14d115223a772672",
+            "type": "leaf",
+            "state": {
+              "type": "kanban",
+              "state": {
+                "file": "This WEEK.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false
+                  ]
+                }
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -50,7 +156,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Done",
+                "query": "deploying npm",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -95,7 +201,7 @@
       {
         "id": "3db29a5e75d77c76",
         "type": "tabs",
-        "dimension": 56.49867374005305,
+        "dimension": 56.49867374005306,
         "children": [
           {
             "id": "b72daf7ed9be8d02",
@@ -130,7 +236,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web Development/postgres.md",
+                "file": "This WEEK.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +253,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web Development/postgres.md",
+                "file": "This WEEK.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +277,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web Development/postgres.md"
+                "file": "This WEEK.md"
               }
             }
           }
@@ -181,7 +287,7 @@
       {
         "id": "80cffb35488acdaf",
         "type": "tabs",
-        "dimension": 43.50132625994695,
+        "dimension": 43.50132625994694,
         "children": [
           {
             "id": "be7abcf5ea8bb47c",
@@ -216,46 +322,46 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "73f23263154d67b1",
+  "active": "14d115223a772672",
   "lastOpenFiles": [
-    "Web Development/Web Design.md",
-    "Web Development/postgres.md",
-    "Web Development/node js/NodeJS 2.md",
+    "Web Development/NextJS/NextJS.md",
+    "Web Development/Web Dev Track.md",
+    "Web Development/DataBase/Prisma.md",
+    "Web Development/DataBase/postgres.md",
     "Web Development/Deployment/Serverless backend.md",
-    "Web Development/Deployment/AWS Deploying EC2.md",
-    "Web Development/Reactjs/Recoil Deep Dive.md",
-    "Web Development/Deployment",
-    "Web Development/Reactjs/Recoil.md",
-    "Web Development/Reactjs/React Deep Dive.md",
-    "Web Development/node js/Node Js.md",
+    "Tailwind CSS.md",
+    "This WEEK.md",
+    "Web Development/Deploying NPM packages.md",
+    "WEB-3/Web 3 & Blockchain Roadmap.md",
     "Web Development/Assets/Pasted image 20240127012230.png",
     "Web Development/Assets/Pasted image 20240127021202.png",
-    "Web Development/node js",
-    "videos to learn.md",
-    "binge watch videos.md",
-    "Obsidian/Learning Obsidian.md",
-    "Obsidian",
-    "Obsidian/Welcome.md",
-    "Obsidian/note taking.md",
-    "Excalidraw/Drawing 2024-07-10 22.26.36.excalidraw.md",
-    "Excalidraw/Drawing 2024-06-12 01.24.00.excalidraw.md",
-    "Web Development/Reactjs/React Hooks.md",
-    "Startup diaries/jobs/jobs1.md",
-    "Startup diaries/jobs/jobs.md",
-    "Startup diaries/jobs/20240109174.md",
-    "Web Development/Javascript/Strings.md",
-    "Web Development/Javascript/async promises.md",
-    "Web Development/Javascript/javascript by piyush.md",
+    "Web Development/Deployment/AWS Deploying EC2.md",
+    "Web Development/Open Source.md",
+    "Web Development/NextJS",
+    "Web Development/DataBase",
+    "Weekly.md",
+    "Untitled Kanban 1.md",
+    "Weekly",
+    "Web Development/Backend & Fullstack Roadmap.md",
+    "Web Development/Reactjs/React Deep Dive.md",
+    "Web Development/node js/Node Js.md",
+    "Web Development/Reactjs/Recoil Deep Dive.md",
     "Web Development/Reactjs/Context API, prop drilling.md",
     "Web Development/Reactjs/Custom Hooks.md",
-    "Web Development/Yaml.md",
+    "Web Development/Reactjs/Recoil.md",
+    "Web Development/Reactjs/React Hooks.md",
+    "Web Development/Reactjs/DOM.md",
+    "Web Development/Javascript/async promises.md",
+    "Web Development/Web Design.md",
+    "Web Development/node js/NodeJS 2.md",
+    "Web Development/Deployment",
+    "Web Development/node js",
+    "videos to learn.md",
+    "Obsidian",
     "WEB-3",
     "DSA",
     "Untitled.canvas",
     "Excalidraw",
-    "Startup diaries",
-    "Web Development/Assets",
-    "DEVops",
-    "Backend"
+    "Startup diaries"
   ]
 }

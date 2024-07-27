@@ -56,11 +56,6 @@
 
 - [Git documentation](https://git-scm.com/docs/gittutorial)
 - [Git Tutorial](https://www.youtube.com/watch?v=apGV9Kg7ics&t=1964s)
-
-## Relational Databases
-
-- [Learn SQL and Relational Databases](https://boot.dev/learn/learn-sql)
-
 ### Postgre SQL
 
 - Tutorials
@@ -104,11 +99,6 @@
 - [Server side Caching](https://www.starwindsoftware.com/resource-library/server-side-caching/)
 - [CDN (Content Delivery Network)](https://www.cloudflare.com/en-ca/learning/cdn/what-is-a-cdn/)
 
-### MVC
-
-- [MVC explained - Web Dev Simplified(Youtube)](https://www.youtube.com/watch?v=DUg2SWWK18I)
-- [Express Router & MVC - The Net Ninja(Youtube)](https://www.youtube.com/watch?v=zW_tZR0Ir3Q)
-
 ### Deployment
 
 - [Node.js & Express,Deploying an app- Traversy Media(Youtube)](https://www.youtube.com/watch?v=_GSOnHRYSS0)
@@ -143,10 +133,6 @@
 - [Jest](https://jestjs.io/docs/getting-started)
 - [Cucumber](https://cucumber.io/docs/guides/)
 - [Pactum](https://pactumjs.github.io/guides/api-testing.html)
-
-## Containerization
-
-- [Containers Explained](https://www.youtube.com/watch?v=0qotVMX-J5s)
 
 ### Docker
 

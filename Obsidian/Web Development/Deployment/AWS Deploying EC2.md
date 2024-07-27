@@ -29,4 +29,6 @@ ssh into the machine
 ssh -i kirat-class.pem ubuntu@ec2-65-0-180-32.ap-south-1.compute.amazonaws.com
 ```
 
-#### Hitting the Server 
+#### Hitting the Server
+
+#### NGINX
