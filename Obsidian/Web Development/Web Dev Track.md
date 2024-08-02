@@ -65,7 +65,6 @@
 	- Transaction and Relationships in Prisma
 	- **Drizzle basics, setup Schema
 	- **Transaction and relationship in Drizzle
-- Deploying NPM packages
 - Monorepo, Turborepo, linting
 - **NextJS
 	- NextJS Frontend
@@ -118,8 +117,14 @@
 	- Nginx
 	- Reverse Proxies
 	- certificate management
-- 
-
+- Frontend Deployment
+	- CDN
+- Deploying NPM packages
+	- common folder 
+	- for zod  types inference 
+	- pushing and deploying as npm modules
+	- using it in backend
+	- using it in frontend
 ## **DevOPS
 - Docker
 	- Containerization

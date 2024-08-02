@@ -22,6 +22,8 @@ Refferences --
 - building backend 
 - connecting database
 - better data fetching
+- singleton prisma client 
+- server action
 
 Refferences --
 - 

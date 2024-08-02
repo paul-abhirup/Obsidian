@@ -34,32 +34,6 @@
             }
           },
           {
-            "id": "0643f487e5759e41",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Web Development/Deployment/Serverless backend.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "193dfe8e04ea7362",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Web Development/Web Dev Track.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "8e79d9ba082c5099",
             "type": "leaf",
             "state": {
@@ -73,12 +47,12 @@
             }
           },
           {
-            "id": "dd4fe91348825c28",
+            "id": "77317135909f1d46",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tailwind CSS.md",
+                "file": "Web Development/Web Dev Track.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,47 +60,30 @@
             }
           },
           {
-            "id": "14d115223a772672",
+            "id": "54c362e543f50aa4",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "excalidraw",
               "state": {
-                "file": "This WEEK.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false
-                  ]
-                }
+                "file": "Excalidraw/Drawing 2024-07-30 11.54.57.excalidraw.md"
+              }
+            }
+          },
+          {
+            "id": "21e4989dd64eaefe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Web Development/Tailwind CSS.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -138,7 +95,7 @@
       {
         "id": "dc6833027ba3f78f",
         "type": "tabs",
-        "dimension": 72.88602941176471,
+        "dimension": 70.77205882352942,
         "children": [
           {
             "id": "0cdd5c69106b5c52",
@@ -176,9 +133,9 @@
         ]
       },
       {
-        "id": "2ac775321c8693c1",
+        "id": "110c03cc88ac79cc",
         "type": "tabs",
-        "dimension": 27.113970588235293,
+        "dimension": 29.227941176470587,
         "children": [
           {
             "id": "0cdc9b2da87df4c2",
@@ -192,7 +149,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244
+    "width": 247
   },
   "right": {
     "id": "51c96f36758cc938",
@@ -215,7 +172,7 @@
             }
           },
           {
-            "id": "fc369391cc7b1159",
+            "id": "5ab7a52076aa5778",
             "type": "leaf",
             "state": {
               "type": "full-calendar-view",
@@ -236,7 +193,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "This WEEK.md",
+                "file": "Web Development/Web Dev Track.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -253,7 +210,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "This WEEK.md",
+                "file": "Web Development/Web Dev Track.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -277,7 +234,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "This WEEK.md"
+                "file": "Web Development/Web Dev Track.md"
               }
             }
           }
@@ -301,7 +258,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 354
+    "width": 354,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -322,16 +280,30 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "14d115223a772672",
+  "active": "77317135909f1d46",
   "lastOpenFiles": [
-    "Web Development/NextJS/NextJS.md",
+    "npm package deployment.md",
     "Web Development/Web Dev Track.md",
-    "Web Development/DataBase/Prisma.md",
+    "Web Development/NextJS/NextJS.md",
+    "binge watch videos.md",
     "Web Development/DataBase/postgres.md",
     "Web Development/Deployment/Serverless backend.md",
-    "Tailwind CSS.md",
-    "This WEEK.md",
+    "Excalidraw/Drawing 2024-07-30 11.54.57.excalidraw.md",
+    "Build the new internet.md",
+    "Web Development/Tailwind CSS.md",
+    "Untitled.md",
+    "Untitled 1.md",
+    "Untitled 1.canvas",
+    "Untitled Kanban.md",
+    "Untitled 2.canvas",
+    "Untitled.canvas",
+    "The plan.md",
+    "Web Development/DevOps Roadmap.md",
+    "Projects/frontend",
+    "Projects/Fullstack web Dev",
+    "Projects",
     "Web Development/Deploying NPM packages.md",
+    "Web Development/DataBase/Prisma.md",
     "WEB-3/Web 3 & Blockchain Roadmap.md",
     "Web Development/Assets/Pasted image 20240127012230.png",
     "Web Development/Assets/Pasted image 20240127021202.png",
@@ -347,21 +319,9 @@
     "Web Development/node js/Node Js.md",
     "Web Development/Reactjs/Recoil Deep Dive.md",
     "Web Development/Reactjs/Context API, prop drilling.md",
-    "Web Development/Reactjs/Custom Hooks.md",
-    "Web Development/Reactjs/Recoil.md",
-    "Web Development/Reactjs/React Hooks.md",
-    "Web Development/Reactjs/DOM.md",
-    "Web Development/Javascript/async promises.md",
-    "Web Development/Web Design.md",
-    "Web Development/node js/NodeJS 2.md",
     "Web Development/Deployment",
     "Web Development/node js",
-    "videos to learn.md",
     "Obsidian",
-    "WEB-3",
-    "DSA",
-    "Untitled.canvas",
-    "Excalidraw",
-    "Startup diaries"
+    "WEB-3"
   ]
 }

@@ -4,48 +4,39 @@ kanban-plugin: board
 
 ---
 
-## Saturday
+## Sunday
 
-- [ ] Medium backend
-- [ ] next backend
 - [ ] Frontend Deployment
-- [ ] next notes
-- [ ] SSR/SSG
+- [ ] postgres node app, transaction
+- [ ] next backend
 - [ ] next study
+- [ ] next notes ^r3p0
+- [ ] SSR/SSG
 - [ ] serverless
 - [ ] prisma synntax prac
 - [ ] PRISMA study
-- [ ] postgres node app, transaction
-- [ ] Monorepo 1
-
-
-## Sunday
-
-- [ ] Medium frontend
 - [ ] Medium
-- [ ] Monorepo 2
-- [ ] Postgres Join
-- [ ] TS
-- [ ] Tailwind
 
 
 ## Monday
 
-- [ ] Auth using cookies
-- [ ] TS advanced
-- [ ] Docker
-- [ ] Paytm monorepo
+- [ ] Medium frontend
+- [ ] Postgres Join
 
 
 ## Tuesday
 
-- [ ] Next Auth
-- [ ] Middlewares in Next
+- [ ] Monorepo 1
+- [ ] Monorepo 2
 
 
 ## Wed
 
 - [ ] CI/CD
+- [ ] Auth using cookies
+- [ ] Next Auth
+- [ ] Middlewares in Next
+- [ ] Paytm monorepo
 
 
 ## Thurs
@@ -165,6 +156,6 @@ kanban-plugin: board
 
 %% kanban:settings
 ```
-{"kanban-plugin":"board","list-collapse":[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false],"move-task-metadata":false}
+{"kanban-plugin":"board","list-collapse":[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false],"move-task-metadata":false}
 ```
 %%
