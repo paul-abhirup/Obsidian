@@ -8,38 +8,38 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c368e849c36da0b0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Web Development/DataBase/Prisma.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9faf69919ebcccf8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Web Development/DataBase/postgres.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "8e79d9ba082c5099",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web Development/NextJS/NextJS.md",
+                "file": "Web Development/Reactjs/Recoil.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5b84f70f69544060",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Web Development/Tailwind CSS.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "861afba0805c9354",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Web Development/Reactjs/React Deep Dive.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -66,19 +66,6 @@
               "type": "excalidraw",
               "state": {
                 "file": "Excalidraw/Drawing 2024-07-30 11.54.57.excalidraw.md"
-              }
-            }
-          },
-          {
-            "id": "21e4989dd64eaefe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Web Development/Tailwind CSS.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
               }
             }
           }
@@ -258,8 +245,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 354,
-    "collapsed": true
+    "width": 354
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -282,15 +268,23 @@
   },
   "active": "77317135909f1d46",
   "lastOpenFiles": [
-    "npm package deployment.md",
-    "Web Development/Web Dev Track.md",
+    "Web Development/Reactjs/Recoil.md",
+    "Web Development/Reactjs/React Deep Dive.md",
+    "Web Development/Reactjs/DOM.md",
     "Web Development/NextJS/NextJS.md",
-    "binge watch videos.md",
-    "Web Development/DataBase/postgres.md",
-    "Web Development/Deployment/Serverless backend.md",
-    "Excalidraw/Drawing 2024-07-30 11.54.57.excalidraw.md",
-    "Build the new internet.md",
     "Web Development/Tailwind CSS.md",
+    "Excalidraw/Drawing 2024-07-30 11.54.57.excalidraw.md",
+    "Web Development/Web Dev Track.md",
+    "Web Development/Reactjs/React Hooks.md",
+    "Web Development/Reactjs/Context API, prop drilling.md",
+    "Web Development/DataBase/postgres.md",
+    "Web Development/DataBase/Prisma.md",
+    "8 Tailwind.pdf",
+    "Drawing 2024-08-04 22.07.01.excalidraw.md",
+    "npm package deployment.md",
+    "binge watch videos.md",
+    "Web Development/Deployment/Serverless backend.md",
+    "Build the new internet.md",
     "Untitled.md",
     "Untitled 1.md",
     "Untitled 1.canvas",
@@ -303,7 +297,6 @@
     "Projects/Fullstack web Dev",
     "Projects",
     "Web Development/Deploying NPM packages.md",
-    "Web Development/DataBase/Prisma.md",
     "WEB-3/Web 3 & Blockchain Roadmap.md",
     "Web Development/Assets/Pasted image 20240127012230.png",
     "Web Development/Assets/Pasted image 20240127021202.png",
@@ -312,16 +305,9 @@
     "Web Development/NextJS",
     "Web Development/DataBase",
     "Weekly.md",
-    "Untitled Kanban 1.md",
     "Weekly",
-    "Web Development/Backend & Fullstack Roadmap.md",
-    "Web Development/Reactjs/React Deep Dive.md",
-    "Web Development/node js/Node Js.md",
-    "Web Development/Reactjs/Recoil Deep Dive.md",
-    "Web Development/Reactjs/Context API, prop drilling.md",
     "Web Development/Deployment",
     "Web Development/node js",
-    "Obsidian",
-    "WEB-3"
+    "Obsidian"
   ]
 }

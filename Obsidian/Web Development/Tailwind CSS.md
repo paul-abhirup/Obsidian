@@ -5,7 +5,7 @@ things to know for frontend styling
 - background colour, hover
 - fonts, font colour
 
-### flexbox
+### **flexbox**
 postion elements(specially divs ) right next to each other 
 justifyContent: "space-between"
 justifyContent ---> how they should be placed 
@@ -34,5 +34,4 @@ with tailwind
 </div>
 ```
 
-### grids
-
+### **grids**

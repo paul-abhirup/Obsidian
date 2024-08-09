@@ -1,3 +1,53 @@
+
+props ---
+- properties
+- allows us to pass dynamic data through react component 
+- they are argument that are passed into react component
+- they are passed via attribute
+- every component have built in props object 
+- hold all the props of the parent component that being passed onto the child component
+
+state ---
+- represent the current state of the app
+- state in react is  a plain JS object used by react to represent a peice of information about the component's current situation, it is completely managed by the component itself
+- we dont use change state manually and use useState hook
+
+event ---
+- is an action that can be triggered as a result of the user action or some kind of system generated event for example -- a click/button press
+
+component ---
+- reusable, dynamic HTML snippet that changes the state
+- building block of site 
+
+we can have multiple useState or useEffect hook for a single component
+
+A state change triggers a re-render 
+A re-render represents the actual DOM being manipulated when the state changes
+We usually define all the components once And update the state of the app
+
+```bash
+npm i react-icons --save
+//for the dev-dependency
+
+npm i react-icons --save -prod
+//for the production dependency
+```
+
+React Project 
+```bash
+npm create vite@latest
+
+npm run dev 
+//run react app
+
+npm run build 
+// converts react to "html,css,js" for hosting
+//build -- contains the product to be hosted
+//this contains the build folder 
+//serve --> cmd is used to host the file 
+
+```
+
 ## React-Returns
 
 create a react app that has a header component 

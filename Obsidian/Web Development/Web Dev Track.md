@@ -21,7 +21,7 @@
 	- Eldora UI
 	- 
 - CSS
-	- flexbox
+	- flexbox, grid
 	- tailwind
 
 ## **Backend**

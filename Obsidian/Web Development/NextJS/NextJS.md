@@ -24,6 +24,7 @@ Refferences --
 - better data fetching
 - singleton prisma client 
 - server action
+- internationalization
 
 Refferences --
 - 
