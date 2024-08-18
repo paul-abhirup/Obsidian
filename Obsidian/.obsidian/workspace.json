@@ -26,6 +26,19 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Web Development/Javascript/01 Strings.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8bc20e593ab55a01",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Web Development/Tailwind CSS.md",
                 "mode": "source",
                 "backlinks": false,
@@ -34,12 +47,12 @@
             }
           },
           {
-            "id": "861afba0805c9354",
+            "id": "eea73f4ddda9bc85",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web Development/Reactjs/React Deep Dive.md",
+                "file": "Web Development/Reactjs/NextJS.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -47,7 +60,59 @@
             }
           },
           {
-            "id": "77317135909f1d46",
+            "id": "d5a02864cdfd0715",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Web Development/Turborepo, Monorepo.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6c1817535b2a7e18",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Vim.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "51db4a2aa841b33a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "WEB-3/Blockchain.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a3fe6ef971309f01",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "WEB-3/Bitcoin Whitepaper.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f2aee6321d52b959",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -58,19 +123,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "54c362e543f50aa4",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2024-07-30 11.54.57.excalidraw.md"
-              }
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -82,7 +137,7 @@
       {
         "id": "dc6833027ba3f78f",
         "type": "tabs",
-        "dimension": 70.77205882352942,
+        "dimension": 74.81617647058823,
         "children": [
           {
             "id": "0cdd5c69106b5c52",
@@ -122,7 +177,7 @@
       {
         "id": "110c03cc88ac79cc",
         "type": "tabs",
-        "dimension": 29.227941176470587,
+        "dimension": 25.183823529411764,
         "children": [
           {
             "id": "0cdc9b2da87df4c2",
@@ -136,7 +191,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 247
+    "width": 247,
+    "collapsed": true
   },
   "right": {
     "id": "51c96f36758cc938",
@@ -180,7 +236,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web Development/Web Dev Track.md",
+                "file": "Vim.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -197,7 +253,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web Development/Web Dev Track.md",
+                "file": "Vim.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -221,7 +277,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web Development/Web Dev Track.md"
+                "file": "Vim.md"
               }
             }
           }
@@ -245,7 +301,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 354
+    "width": 354,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -266,48 +323,49 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "77317135909f1d46",
+  "active": "6c1817535b2a7e18",
   "lastOpenFiles": [
-    "Web Development/Reactjs/Recoil.md",
-    "Web Development/Reactjs/React Deep Dive.md",
-    "Web Development/Reactjs/DOM.md",
-    "Web Development/NextJS/NextJS.md",
+    "WEB-3/Blockchain.md",
+    "WEB-3/Bitcoin Whitepaper.md",
+    "WEB-3/bitcoin.pdf",
+    "WEB-3/Hashing, Proof of work.md",
+    "Vim.md",
+    "WEB-3/Assets",
+    "WEB-3/Assets/Pasted image 20240818025615.png",
+    "WEB-3/Assets/Pasted image 20240818134401.png",
+    "WEB-3/Web 3 & Blockchain Roadmap.md",
+    "Web Development/Turborepo, Monorepo.md",
+    "Web Development/Javascript/07 Functions.md",
+    "Web Development/Javascript/Scope, Lexical Scope, Curry.md",
+    "Web Development/Reactjs/NextJS.md",
+    "Web Development/Javascript/IO heavy operations.md",
+    "Web Development/MERN Projects Ideas and resources.md",
+    "Web Development/Javascript/Promise.md",
+    "Web Development/Javascript/Async Await.md",
+    "Web Development/Javascript/Async Await - freecodecamp.md",
+    "Web Development/Javascript/Classes in JS.md",
     "Web Development/Tailwind CSS.md",
-    "Excalidraw/Drawing 2024-07-30 11.54.57.excalidraw.md",
+    "Web Development/Javascript/01 Strings.md",
     "Web Development/Web Dev Track.md",
-    "Web Development/Reactjs/React Hooks.md",
-    "Web Development/Reactjs/Context API, prop drilling.md",
-    "Web Development/DataBase/postgres.md",
-    "Web Development/DataBase/Prisma.md",
+    "Web Development/Open Source.md",
+    "Web Development/Javascript/05 Date.md",
+    "Excalidraw/Drawing 2024-07-30 11.54.57.excalidraw.md",
+    "Web Development/Javascript/08 Arrow functions.md",
+    "Web Development/Reactjs/03 Context API, prop drilling.md",
+    "Web Development/Reactjs/Recoil.md",
+    "Pasted image 20240810220842.png",
     "8 Tailwind.pdf",
-    "Drawing 2024-08-04 22.07.01.excalidraw.md",
-    "npm package deployment.md",
-    "binge watch videos.md",
-    "Web Development/Deployment/Serverless backend.md",
-    "Build the new internet.md",
-    "Untitled.md",
-    "Untitled 1.md",
     "Untitled 1.canvas",
-    "Untitled Kanban.md",
     "Untitled 2.canvas",
     "Untitled.canvas",
-    "The plan.md",
-    "Web Development/DevOps Roadmap.md",
     "Projects/frontend",
     "Projects/Fullstack web Dev",
     "Projects",
-    "Web Development/Deploying NPM packages.md",
-    "WEB-3/Web 3 & Blockchain Roadmap.md",
     "Web Development/Assets/Pasted image 20240127012230.png",
     "Web Development/Assets/Pasted image 20240127021202.png",
-    "Web Development/Deployment/AWS Deploying EC2.md",
-    "Web Development/Open Source.md",
     "Web Development/NextJS",
     "Web Development/DataBase",
-    "Weekly.md",
     "Weekly",
-    "Web Development/Deployment",
-    "Web Development/node js",
-    "Obsidian"
+    "Web Development/Deployment"
   ]
 }

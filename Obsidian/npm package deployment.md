@@ -1,1 +1,0 @@
-before monorepo was a thing codebases used to shove everything at 1 place 

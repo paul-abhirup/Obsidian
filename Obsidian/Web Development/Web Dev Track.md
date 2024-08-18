@@ -14,17 +14,23 @@
 	- ShadCN
 	- Tailwind
 - UI Library
-	- Acernity UI
+	- **Acernity UI
 	- Material UI
 	- Next UI
 	- Magic Ui
 	- Eldora UI
-	- 
 - CSS
 	- flexbox, grid
 	- tailwind
 
 ## **Backend**
+- **TypeScript
+	-  Interfaces
+	- Types
+	- Arrays 
+	- Enumeration
+	- Generics 
+	- Import, Export
 - Express, HTTP
 	- http server
 	- Methods
@@ -46,7 +52,6 @@
 		- Aggregation Pipelines in mongo
 	- Mongoose
 		- ODM
-	- 
 - SQL
 	- Postgres
 	- creating schemas while dealing with SQL dbs
@@ -88,16 +93,6 @@
 - 
 
 
-## **TypeScript
-- Interfaces
-- Types
-- Arrays 
-- Enumeration
-- Generics 
-- Import, Export
-- 
-
-
 ## **Deployment
 - Serverless
 	- cloudfare Workers
@@ -125,6 +120,7 @@
 	- pushing and deploying as npm modules
 	- using it in backend
 	- using it in frontend
+
 ## **DevOPS
 - Docker
 	- Containerization
