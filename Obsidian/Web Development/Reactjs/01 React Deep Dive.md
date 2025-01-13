@@ -1,4 +1,3 @@
-
 props ---
 - properties
 - allows us to pass dynamic data through react component 
@@ -45,7 +44,36 @@ npm run build
 //build -- contains the product to be hosted
 //this contains the build folder 
 //serve --> cmd is used to host the file 
+```
 
+
+using classbased components in react
+```jsx
+class NavBasic extends React.PureComponent{
+  static defaultProps = {
+    onBack: null 
+  };
+
+  //these are life cycle events 
+  //they used in understanding which components are being rendered
+  onComponentMount(){
+  }
+
+  onComponentUnMount(){
+  }
+
+  onRender(){    
+  }
+  
+  render(){
+    return(
+      <div>
+      ... 
+      </div>
+    )
+  }
+  
+}
 ```
 
 ## React-Returns
@@ -53,7 +81,7 @@ npm run build
 create a react app that has a header component 
 - that take title as a prop and renders it inside a div
 - App renders more than 1 Header 
-```jsx
+``` jsx
 import React, { useState } from 'react'
 
 function App() {
@@ -64,7 +92,6 @@ function App() {
     //  <Header title="harkirat2" />  
     //   <Header title="harkirat3" />  
     //   <Header title="harkirat4" />  
-
 
     // like this 
       <>     
@@ -101,18 +128,15 @@ export default App
 
 ```
 
-
-
 ## Re-rendering in React
 ```jsx
 /////////////RE-rendering in React//////////////////
 import React, { useState } from 'react'
 
-
 function App(){
   const [title,setTitle] = useState("my name is paul");
   function updateTitle(){
-    setTitle("my name is " + Math.random());
+    setTitle("my name is" + Math.random());
     // Math.random() will generate a random number between 0 and 1
   }
 
@@ -127,7 +151,7 @@ function App(){
     <Header title="my name is harkirat6" />
     </>
   )
-  // every time a parent re-renders all the children re-render as well. 
+  //every time a parent re-renders all the children re-render as well. 
   //so its important to render only the important elements and not all of them
 }
 
@@ -138,16 +162,16 @@ function Header({title}){
   </div>
 }
  export default App
-
 ```
 
+
+Now we will be re-rendering only the important elements
 ```jsx
 //////////////////////re-rendering only the important elements//////////////////////////
 import React, { useState } from 'react'
 
 function App(){
   
-  // by this we are rendering only the important elements
   //now only the <HeaderWithButtons/> will re-render and not the other elements 
 
   return (
@@ -161,11 +185,11 @@ function App(){
 
 //this contains the components that require re-render 
 //button and the header
-//rest dont need rerender //saving compute
+//rest dont need re-render //saving compute
 function HeaderWithButtons(){
   const [title, setTitle] = useState("my name is paul");
 
-  function updateTitle() {
+  function updateTitle(){
     setTitle("my name is " + Math.random());
   }
   return(
@@ -188,13 +212,12 @@ export default App
 ```
 
 ## react.memo
+memo lets you to skip re-rendering of the component if its props are not changed
 ```jsx
 ///////////using react.memo to prevent re-rendering
 //////////////////////
-//memo lets you to skip re-rendering of the component if its props are not changed
 
-import React, {memo} from 'react'
-import { useState } from 'react'
+import React, {memo}, { useState } from 'react'
 
 function App() {
   const [title, setTitle] = useState("my name is paul");
@@ -227,7 +250,7 @@ export default App
 ```
 
 the button , title , parent ----- re-renders
-but he multiple children (that didn't changed ) don't re-render
+but the multiple children (that didn't changed ) don't re-render
 if a parent re-renders all child also re-renders until wrapped inside a react .memo
 so what u have wrapped inside a react.memo if that doesn't gets updated the following static children also don't gets updated 
 ex-
@@ -241,15 +264,114 @@ ex-
 //as the props remains unchanged
 ```
 
-
-//create a todo app //
-- that takes title,input and description as input 
-- initialize a state array that has 3 todos 
-- iterate over array to render all todos 
-- a button in the top level app component to add a todo 
-## to-do app
+## Wrapper Components
+they take inner react component as an input and renders it 
 ```jsx
 
+import React, { useState } from 'react'
+
+function App(){
+  return <div>
+    <CardWrapper innerComponent={<TextComponent />} />
+    <CardWrapper innerComponent={<TextComponent2 />} />
+  </div>
+  // both the components are rendered inside the CardWrapper component
+  //both the components are passed as props to the CardWrapper component
+}
+
+//this is a wrapper component which will render the inner component inside it
+//this is not changing the inner component in any way
+
+function CardWrapper({innerComponent}){
+  //create a div which has a border 
+  // inside the div render the props
+
+  return <div style={{border:"2px solid black", padding: 20}}>
+  {innerComponent}
+  </div>
+}
+
+function TextComponent(){
+  return <div>
+  hi there
+  </div>
+}
+
+function TextComponent2(){
+  return <div>
+  hi there2
+  </div>
+}
+
+export default App
+```
+
+```jsx
+/**
+ * Wrapper components Best practices
+ */
+
+import React, { useState } from 'react'
+
+//better way to write wrapper components
+//Real wrapper
+
+function App(){
+  return <div>
+  
+    <CardWrapper>
+    hi there
+    </CardWrapper>
+    
+    <CardWrapper>
+    <div>
+        hi there
+    </div>
+    </CardWrapper>
+    
+    <CardWrapper>
+    <TextComponent />
+    </CardWrapper>
+    
+    <CardWrapper>
+      <CardWrapper>
+        <TextComponent />
+      </CardWrapper>
+    </CardWrapper>
+    
+  </div>
+}
+
+// ------------this is a nested wrapper component----///////
+
+// here the cardwrapper is the parent component and the cardwrapper inside it is the child component and the textcomponent inside it is the grandchild component[childcomponent of the child component]
+
+
+//children has every thing inside the <CardWrapper>...</CardWrapper> component
+function CardWrapper({children}){
+  return <div style={{border:"2px solid black", padding: 20}}>
+  {children}
+  </div>
+}
+
+function TextComponent(){
+  return <div>
+  hi there
+  </div>
+}
+
+export default App
+
+```
+
+
+# //create a todo app //
+- that takes title, input and description as input 
+- initialize a state array that has 3 todos
+- iterate over array to render all todos
+- a button in the top level app component to add a todo
+## to-do app
+``` jsx
 
 ///////////////////   to-do app  Class notes   ///////////////////////////
 
@@ -395,132 +517,4 @@ function ToDo({ title, description }) {
 }
 
 export default App
-```
-
-## Wrapper Components
-they take inner react component as an input and renders it 
-```jsx
-
-import React, { useState } from 'react'
-
-function App(){
-  return <div>
-    <CardWrapper innerComponent={<TextComponent />} />
-    <CardWrapper innerComponent={<TextComponent2 />} />
-  </div>
-  // both the components are rendered inside the CardWrapper component
-  //both the components are passed as props to the CardWrapper component
-}
-
-//this is a wrapper component which will render the inner component inside it
-//this is not changing the inner component in any way
-
-function CardWrapper({innerComponent}){
-  //create a div which has a border 
-  // inside the div render the props
-
-  return <div style={{border:"2px solid black", padding: 20}}>
-  {innerComponent}
-  </div>
-}
-
-function TextComponent(){
-  return <div>
-  hi there
-  </div>
-}
-
-function TextComponent2(){
-  return <div>
-  hi there2
-  </div>
-}
-
-export default App
-```
-
-```jsx
-/**
- * Wrapper components Best practices
- */
-
-import React, { useState } from 'react'
-
-//better way to write wrapper components
-//Real wrapper
-
-function App(){
-  return <div>
-  
-    <CardWrapper>
-    hi there
-    </CardWrapper>
-    
-    <CardWrapper>
-    <div>
-        hi there
-    </div>
-    </CardWrapper>
-    
-    <CardWrapper>
-    <TextComponent />
-    </CardWrapper>
-    
-    <CardWrapper>
-      <CardWrapper>
-        <TextComponent />
-      </CardWrapper>
-    </CardWrapper>
-    
-  </div>
-}
-
-// ------------this is a nested wrapper component----///////
-
-// here the cardwrapper is the parent component and the cardwrapper inside it is the child component and the textcomponent inside it is the grandchild component[childcomponent of the child component]
-
-
-//children has every thing inside the <CardWrapper>...</CardWrapper> component
-function CardWrapper({children}){
-  return <div style={{border:"2px solid black", padding: 20}}>
-  {children}
-  </div>
-}
-
-function TextComponent(){
-  return <div>
-  hi there
-  </div>
-}
-
-export default App
-
-```
-
-```jsx
-class NavBasic extends React.PureComponent{
-  static defaultProps = {
-    onBack: null 
-  };
-
-  //these are life cycle events 
-  //they used in understanding which components are being rendered
-  onComponentMount(){
-  }
-
-  onComponentUnMount(){
-  }
-
-  onRender(){    
-  }
-  
-  render(){
-    return(
-      <div>
-        
-      </div>
-    )
-  }
-  
-}
 ```

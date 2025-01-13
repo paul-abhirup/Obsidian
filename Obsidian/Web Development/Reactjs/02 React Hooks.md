@@ -309,3 +309,6 @@ useRef is a hook in React that is used to persist values across renders without 
 ```jsx
 
 ```
+
+# Custom Hooks
+

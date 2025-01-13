@@ -11,6 +11,17 @@
 - https://youtu.be/OmzCvb-QBak?si=HyUXdFRqz7V0GY5y
 - https://www.youtube.com/watch?v=x4hsV_q_YQc
 
+- https://www.digitalocean.com/community/tutorial-series/an-introduction-to-open-source
+- https://github.blog/developer-skills/github/how-to-write-the-perfect-pull-request/
+- https://up-for-grabs.net/
+- https://contribhub.com/
+- https://goodfirstissue.dev/
+- https://about.gitlab.com/blog/2022/02/07/first-time-open-source-contributor-5-things-to-get-you-started/
+- https://about.gitlab.com/blog/2022/10/18/how-to-start-a-great-oss-project/
+- https://dev.to/chrissiemhrk/git-commit-message-5e21
+- https://finder.usmans.me/
+- https://hacktoberfest.com/participation/
+- https://docs.github.com/en/get-started/using-github/github-flow
 
 <h1>Dev Rel - Company ka dalle</h1>
 # DevRel

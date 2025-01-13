@@ -1,3 +1,10 @@
+
+js --
+- express
+- next
+ - nestjs
+ - fastify
+
 ## **FrontEnd**
 - React
 	- Reconcilation
@@ -46,14 +53,20 @@
 - Auth - JWT
 - No-SQL
 	- DataBase, SQL vs Nosql
-	- MongoDB
+	- nosql db
+		- mongo
+		- firebase
+		- redis
+		- supabase
+	- **MongoDB** //best nosql db
 		- relationships in mongo
 		- transactions in mongo
 		- Aggregation Pipelines in mongo
 	- Mongoose
 		- ODM
 - SQL
-	- Postgres
+	- **Postgres** // best option for sql db
+	- MySql
 	- creating schemas while dealing with SQL dbs
 	- Create Table
 	- SQL Queries (CRUD) Operation using quries
@@ -76,21 +89,67 @@
 	- NextJS Backend
 	- NextAuth
 	- Middleware in NextJS
+	- CMS /// content management system  --- wordpress
+	- headless cms/SSG 
 - Auth using Cookies
 - CI/CD
-- Websockets
-- Advanced Backend Communication
-- TRPC
-- GraphQL
+- **Advanced Backend Communication**
+	APIs/ communication protocol // not needed to know all but have and idea
+	- Websockets
+	- GraphQL
+	- rest
+	- GRPC
+	- soap // old
+	- json rpc
+	- webhooks
+	- WebRTC
+	- server side events
+	- TRPC
 - OpenAPI Specs
 - DDoS, Rate Limit 
 - Singleton Pattern, Pub Subs
 - Vertical Scaling
 - Scaling Node.Js app
-- WebRTC
-- GRPC
 - Testing in the MERN Stack
+- protocols
+	- http/ https
+	- ssh
+	- tcp
+	- udp
+	- ipv4/ipv6
+	- ftp+ftps+stps
+	- email 
+		- pop3
+		- smtp
+		- impa
+	- messaging 
+		- amqp
+		- mqtt
+		- stomp
+- Client Servers
+	- web servers 
+		- Apache
+		- Nginix
+	- CDNs // content delivery network
+		- cloudflare
+		- cloudfront
+	- Browsers(client )
+		-  webkit -- safari
+		- v8 
+			- chrome 
+			- brave
+		- spidermonkey -- firefox
+- notations
+	- markdown 
+	- yaml 
+	- json 
+	- xml 
+	- csv
+	- protobuf
+	- toml
 - 
+
+
 
 
 ## **Deployment
@@ -120,6 +179,19 @@
 	- pushing and deploying as npm modules
 	- using it in backend
 	- using it in frontend
+- hosting
+	- shared/VPS/dedicated
+	- godaddy, hostinger,etc
+- PaaS // platform as a service 
+	- vercel
+	- netlify
+	- heroku
+	- AWS elastic 
+	- GAE // google app engine 
+- IaaS // Infrastructure as a service 
+	- AWS 
+	- GCP
+- 
 
 ## **DevOPS
 - Docker
@@ -149,3 +221,26 @@
 - 
 
 
+
+**App Dev lifecycle**
+	- os
+	- editor
+	- source control /version control
+	- containerization
+	- orchestration
+		- docker compose 
+		- k8
+		- docker swarm
+	- ci/cd
+		- jenkins
+		- github actions
+	- testing
+		- postman 
+		- selenium
+		- cypress
+	- issues // storing iisues 
+		- github issues
+		- jira
+		- notion
+	- monitoring
+		- promtheus , gafna

@@ -1,0 +1,62 @@
+#web3 
+
+- [ ] 1
+	- [ ] orientation 1
+	- [ ] orientation 2
+	- [ ] bitcoin paper
+- [ ] 2
+	- [ ] public key cryptography
+- [ ] 3
+	- [ ] public key cryptography 2
+- [ ] 4
+	- [ ] creating a web based wallet
+- [ ] 5
+	- [ ] solana jargons, programming models and tokens
+- [ ] 6
+	- [ ] Building a token launchpad in react
+- [ ] 7
+	- [ ] Authorities Ownners and accounts in solana
+- [ ] 8
+	- [ ] Dapps, Wallet adapter and simple apps
+	- [ ]  Building a token launchpad in react
+	- [ ] PDAs
+- [ ] 9
+	- [ ] Decentralized Exchanges, AMMs and liquidity pools
+- [ ] 10
+	- [ ] Eth, EVM, Bytecode and opcode
+- [ ] 11
+	- [ ] ETH wallet adapters
+- [ ] 12
+	- [ ] Impermanent loss and Creating a liquidity pool
+- [ ] 13
+	- [ ] LSTs, coding a LST platform
+- [ ] 14
+	- [ ] Private key management, building a project
+- [ ] 15
+	- [ ] solidity 1
+	- [ ] solidity 2
+- [ ] 16
+	- [ ] payable CCI in ETH
+- [ ] 17
+	- [ ] ERC-20 and OpenZeplin Contracts 
+- [ ] 18
+	- [ ] HArdhat, Ganache and Foundry
+- [ ] 19
+	- [ ] Bridges, building and EVM bridges
+- [ ] 20
+	- [ ] Building a bridge 
+- [ ] 21
+	- [ ] client side ETH
+- [ ] 22
+	- [ ] Upgradibility in ETH
+	- [ ] building a proxy staking contract
+- [ ] 23
+- [ ] 24
+- [ ] 25
+- [ ] 26
+- [ ] 27
+- [ ] 28
+- [ ] 29
+
+## Resources
+https://www.youtube.com/@AbdullahRaza
