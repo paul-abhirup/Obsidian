@@ -51,7 +51,9 @@
 	- [ ] Upgradibility in ETH
 	- [ ] building a proxy staking contract
 - [ ] 23
+	- [ ] 
 - [ ] 24
+	- [ ] 
 - [ ] 25
 - [ ] 26
 - [ ] 27

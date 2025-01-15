@@ -26,3 +26,4 @@ https://www.youtube.com/watch?v=IoFbXdt18BA
 
 // using AI API
 - [ ] https://www.youtube.com/watch?v=1qCyRAVEeoU
+

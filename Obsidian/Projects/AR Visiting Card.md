@@ -1,3 +1,4 @@
+# Tech Stack
 ### Frontend
 
 - **React.js** - Main frontend framework
@@ -63,10 +64,58 @@
 
 ---
 
-## Weekly based Work 
+## Testing Strategy
+
+1. **Unit Testing**
+    - Component testing
+    - Service testing
+    - Utility function testing
+2. **Integration Testing**
+    - API endpoint testing
+    - Database operations
+    - AR functionality
+3. **E2E Testing**
+    - User flows
+    - AR experience
+    - Card creation process
+
+## Deployment
+
+1. **Frontend Deployment**
+    - Vercel or Netlify
+    - CDN configuration
+    - Asset optimization
+2. **Backend Deployment**
+    - Node.js deployment on AWS/Heroku
+    - Database setup
+    - Environment configuration
+## Performance Optimization
+
+1. **Asset Optimization**
+    - 3D model compression
+    - Image optimization
+    - Lazy loading
+2. **Caching Strategy**
+    - Browser caching
+    - API response caching
+    - Asset caching
+
+## Security Measures
+
+1. **Authentication**
+    - JWT implementation
+    - OAuth integration
+    - Session management
+2. **Data Protection**
+    - Input validation
+    - XSS prevention
+    - CSRF protection
+
+
+# Weekly based Work 
 
 *Week 1
-- [ ] create wireframes figma , UIUX
+- [x] create wireframes figma , UIUX
 - [ ] setup project
 	- [ ] **Project Initialize**
 	- Set up React with Vite
@@ -129,53 +178,6 @@
 	- [ ] mobile responsiveness
 	- [ ] bug fixes
 
-##  Testing Strategy
-
-1. **Unit Testing**
-    - Component testing
-    - Service testing
-    - Utility function testing
-2. **Integration Testing**
-    - API endpoint testing
-    - Database operations
-    - AR functionality
-3. **E2E Testing**
-    - User flows
-    - AR experience
-    - Card creation process
-
-## Deployment
-
-1. **Frontend Deployment**
-    - Vercel or Netlify
-    - CDN configuration
-    - Asset optimization
-2. **Backend Deployment**
-    - Node.js deployment on AWS/Heroku
-    - Database setup
-    - Environment configuration
-## Performance Optimization
-
-1. **Asset Optimization**
-    - 3D model compression
-    - Image optimization
-    - Lazy loading
-2. **Caching Strategy**
-    - Browser caching
-    - API response caching
-    - Asset caching
-
-## Security Measures
-
-1. **Authentication**
-    - JWT implementation
-    - OAuth integration
-    - Session management
-2. **Data Protection**
-    - Input validation
-    - XSS prevention
-    - CSRF protection
-
 
 Project structure 
 ```
@@ -198,25 +200,19 @@ ar-business-card/
     └── types/
 ```
 
+# Feature Planning --->
 
-End Product 
-- LAnding page
-	- moder ui/ux
-	- feature showcase with demos
+#### **V1 - beta
+- Landing Page
+- Login, Signup Page
+- Authentication
+- a `Card Creator` interface with live preview of the Card 
+- generate a QR and save it in the database
+- render AR elements upon the QR scan
+#### **V2 
+- Custom QR
 
-- client creator interface
-```
-┌─────────────────────────────────────┐
-│ Create New Card                     │
-├────────────────┬────────────────────┤
-│ Template       │    Preview         │
-│ Selection      │                    │
-│                │    Live AR         │
-│ Content Editor │    Preview         │
-│ - Personal Info│                    │
-│ - Social Links │                    │
-│ - 3D Elements  │                    │
-│ - Animations   │                    │
-└────────────────┴────────────────────┘
-```
+#### **V3
+- AI integration
 
+#### **V4

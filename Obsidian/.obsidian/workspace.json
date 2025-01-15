@@ -6,7 +6,7 @@
       {
         "id": "fad1601a51779e71",
         "type": "tabs",
-        "dimension": 36.193771626297575,
+        "dimension": 42.74537695590327,
         "children": [
           {
             "id": "88f8c2b50172ee49",
@@ -104,14 +104,28 @@
               "icon": "lucide-file",
               "title": "Youtube Watchlist"
             }
+          },
+          {
+            "id": "493f07776219ad68",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TODO.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "TODO"
+            }
           }
-        ],
-        "currentTab": 3
+        ]
       },
       {
         "id": "43c2a6fb5d09875e",
         "type": "tabs",
-        "dimension": 63.806228373702425,
+        "dimension": 57.25462304409673,
         "children": [
           {
             "id": "2773950e321eb7e7",
@@ -129,36 +143,6 @@
             }
           },
           {
-            "id": "4503ba4d43f280f4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Learning tools/Welcome, Learning Obsidian.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Welcome, Learning Obsidian"
-            }
-          },
-          {
-            "id": "422beaf4a8450f12",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Web3 COHORT.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Web3 COHORT"
-            }
-          },
-          {
             "id": "6749b8521cfae6ad",
             "type": "leaf",
             "state": {
@@ -171,6 +155,21 @@
               },
               "icon": "lucide-file",
               "title": "ADHD"
+            }
+          },
+          {
+            "id": "213f0d8c9e7d814f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Web Development/Javascript/JavaScript Basics.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "JavaScript Basics"
             }
           },
           {
@@ -234,7 +233,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -453,44 +452,44 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "0cdd5c69106b5c52",
+  "active": "6749b8521cfae6ad",
   "lastOpenFiles": [
+    "Web Development/Javascript/JavaScript Basics.md",
+    "999 templates/{{topic}}.md",
+    "999 templates/Daily template.md",
+    "999 templates/Untitled.md",
+    "COHORT.md",
+    "Daily Notes/2025-02-10.md",
+    "Daily Notes/2025-02-09.md",
+    "TODO.md",
+    "Projects/AR Visiting Card.md",
+    "Reading List.md",
+    "Youtube Watchlist.md",
+    "Web Development/Javascript/JS probelms from Assignments.md",
+    "Mental Wellbeing/ADHD.md",
+    "Web Development/NOTES/JavaScript Interview.md",
+    "Web Development/Javascript/Async Await - freecodecamp.md",
+    "Web Development/Javascript/Async Await Promise.md",
+    "Web Development/NOTES/Drawing 2025-01-14 17.27.03.excalidraw.md",
+    "Web Development/Imp and random/Node JS.md",
+    "Learning tools/Welcome, Learning Obsidian.md",
+    "WEB-3/Web 3 & Blockchain Roadmap.md",
+    "Web3 COHORT.md",
     "Assets",
     "Web Development/Interview",
     "Web Development/NOTES/React Interview.md",
-    "Youtube Watchlist.md",
-    "Web3 COHORT.md",
-    "WEB-3/Web 3 & Blockchain Roadmap.md",
-    "Mental Wellbeing/ADHD.md",
     "ATS.md",
-    "Web Development/Imp and random/Node JS.md",
-    "Projects/AR Visiting Card.md",
-    "COHORT.md",
     "WEB-3/Blockchain.md",
     "WEB-3/bitcoin.pdf",
-    "Reading List.md",
-    "Web Development/Javascript/JS probelms from Assignments.md",
-    "Learning tools/Welcome, Learning Obsidian.md",
     "Web Development/Vim.md",
     "Mental Wellbeing",
     "Advance BACKEND.md",
-    "Web Development/Reactjs/01 React Deep Dive.md",
-    "Web Development/Javascript/JavaScript.md",
-    "Web Development/Reactjs/Recoil.md",
-    "Portfolio Site.md",
-    "Web Development/Reactjs/03 Context API, prop drilling.md",
-    "JS Test PAPER.md",
-    "Web Development/Remote Job.md",
-    "Web Development/Reactjs/DOM.md",
-    "Web Development/Reactjs/02 React Hooks.md",
-    "Web Development/Reactjs/to-do app in react.md",
     "Startup diaries/web3",
     "Web Development/Imp and random",
     "Web Development/NOTES",
     "Web Development/Next JS",
     "Rules to live by/Relationship",
     "Rules to live by/Inspiration",
-    "Rules to live by/Finance",
     "WEB-3/Assets/Pasted image 20240818025615.png",
     "WEB-3/Assets/Pasted image 20240818134401.png",
     "Pasted image 20240810220842.png",
