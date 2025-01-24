@@ -1,6 +1,0 @@
-- [ ] 3d card element
-- [ ] add a github scroll down element
-- [ ] add work experience -- parallax 
-	- [ ] timeline element
-- [ ] social media update
-- [ ] 

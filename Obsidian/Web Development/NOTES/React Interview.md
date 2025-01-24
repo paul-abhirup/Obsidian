@@ -18,10 +18,6 @@
   - When your component 1st get created it will get attached to the dom and that is called the componentDidMount -> [By writing inside the useEffect]
   - After the complition of the work of the component you can remove them from the dom and thats method is called componentWillUnmount -> [By returning from the useEffect]
 
-```bash
-
-```
-
 - React JSX
   - JSX allows you to write HTML tags inside the JavaScript code:
   - The HTML code must be wrapped in ONE top level element.
@@ -62,6 +58,55 @@ const x = 5;
 const myElement = <h1>{(x) < 10 ? "Hello" : "Goodbye"}</h1>;
 
 ```
+
+React Project 
+```bash
+npm create vite@latest
+
+npm run dev 
+//run react app
+
+npm run build 
+// converts react to "html,css,js" for hosting
+//build -- contains the product to be hosted
+//this contains the build folder 
+//serve --> cmd is used to host the file 
+
+npm i react-icons --save
+//for the dev-dependency
+
+npm i react-icons --save -prod
+//for the production dependency
+
+```
+
+
+- props ---
+	- properties
+	- allows us to pass dynamic data through react component 
+	- they are argument that are passed into react component
+	- they are passed via attribute
+	- every component have built in props object 
+	- hold all the props of the parent component that being passed onto the child component
+
+- state ---
+	- represent the current state of the app
+	- state in react is  a plain JS object used by react to represent a peice of information about the component's current situation, it is completely managed by the component itself
+	- we dont use change state manually and use useState hook
+
+- event ---
+	- is an action that can be triggered as a result of the user action or some kind of system generated event for example -- a click/button press
+
+- component ---
+	- reusable, dynamic HTML snippet that changes the state
+	- building block of site 
+	- we can have multiple useState or useEffect hook for a single component
+
+A state change triggers a re-render 
+A re-render represents the actual DOM being manipulated when the state changes
+We usually define all the components once And update the state of the app whenever needed
+
+---
 
 - React Components
   - When creating a React component, the component's name MUST start with an upper case letter.
@@ -235,6 +280,36 @@ function Goal(props) {
   );
 }
 
+```
+
+ - using class-based components in react
+ 
+```jsx
+class NavBasic extends React.PureComponent{
+  static defaultProps = {
+    onBack: null 
+  };
+
+  //these are life cycle events 
+  //they used in understanding which components are being rendered
+  onComponentMount(){
+  }
+
+  onComponentUnMount(){
+  }
+
+  onRender(){    
+  }
+  
+  render(){
+    return(
+      <div>
+      ... 
+      </div>
+    )
+  }
+  
+}
 ```
 
 - React Lists

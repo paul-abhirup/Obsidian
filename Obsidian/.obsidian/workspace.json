@@ -6,54 +6,40 @@
       {
         "id": "fad1601a51779e71",
         "type": "tabs",
-        "dimension": 42.74537695590327,
+        "dimension": 54.43383356070941,
         "children": [
           {
-            "id": "88f8c2b50172ee49",
+            "id": "1e97f40f04cdd2ae",
             "type": "leaf",
             "pinned": true,
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "COHORT.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false
-                  ]
-                }
+                "file": "Managerial/Reading List.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               },
               "pinned": true,
-              "icon": "lucide-trello",
-              "title": "COHORT"
+              "icon": "lucide-file",
+              "title": "Reading List"
+            }
+          },
+          {
+            "id": "5d470abbdee9dfae",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cohort Revision 2.0.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Cohort Revision 2.0"
             }
           },
           {
@@ -72,91 +58,15 @@
               "icon": "lucide-file",
               "title": "AR Visiting Card"
             }
-          },
-          {
-            "id": "4271d5665ed7e43b",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Reading List.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "Reading List"
-            }
-          },
-          {
-            "id": "5ff560e9de3e0fcc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Youtube Watchlist.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Youtube Watchlist"
-            }
-          },
-          {
-            "id": "493f07776219ad68",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TODO.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "TODO"
-            }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "43c2a6fb5d09875e",
         "type": "tabs",
-        "dimension": 57.25462304409673,
+        "dimension": 45.56616643929058,
         "children": [
-          {
-            "id": "2773950e321eb7e7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Web Development/Imp and random/Node JS.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Node JS"
-            }
-          },
-          {
-            "id": "6749b8521cfae6ad",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mental Wellbeing/ADHD.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "ADHD"
-            }
-          },
           {
             "id": "213f0d8c9e7d814f",
             "type": "leaf",
@@ -173,37 +83,52 @@
             }
           },
           {
-            "id": "4037433a2bf3b1e8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Web Development/Imp and random/Node JS.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Node JS"
-            }
-          },
-          {
-            "id": "58c675a30c66e5f4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Web Development/Reactjs/01 React Deep Dive.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "01 React Deep Dive"
-            }
-          },
-          {
             "id": "0f0d7cf1789351f6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Web Development/Reactjs/React Class.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "React Class"
+            }
+          },
+          {
+            "id": "3d7f76c8c8087133",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Managerial/Youtube Watchlist.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Youtube Watchlist"
+            }
+          },
+          {
+            "id": "057a9a7e343fd821",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Web Development/NOTES/React Interview.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "React Interview"
+            }
+          },
+          {
+            "id": "08fc17b32e562507",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -233,7 +158,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -245,7 +170,6 @@
       {
         "id": "dc6833027ba3f78f",
         "type": "tabs",
-        "dimension": 73.61344537815127,
         "children": [
           {
             "id": "0cdd5c69106b5c52",
@@ -265,7 +189,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "remote job",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -287,27 +211,11 @@
             }
           }
         ]
-      },
-      {
-        "id": "110c03cc88ac79cc",
-        "type": "tabs",
-        "dimension": 26.386554621848735,
-        "children": [
-          {
-            "id": "0cdc9b2da87df4c2",
-            "type": "leaf",
-            "state": {
-              "type": "timer-view",
-              "state": {},
-              "icon": "timer",
-              "title": "Timer"
-            }
-          }
-        ]
       }
     ],
     "direction": "horizontal",
-    "width": 241.52756881713867
+    "width": 241.52756881713867,
+    "collapsed": true
   },
   "right": {
     "id": "51c96f36758cc938",
@@ -316,18 +224,8 @@
       {
         "id": "3db29a5e75d77c76",
         "type": "tabs",
-        "dimension": 64.19098143236074,
+        "dimension": 45.68200161420501,
         "children": [
-          {
-            "id": "5ab7a52076aa5778",
-            "type": "leaf",
-            "state": {
-              "type": "full-calendar-view",
-              "state": {},
-              "icon": "calendar-glyph",
-              "title": "Calendar"
-            }
-          },
           {
             "id": "b72daf7ed9be8d02",
             "type": "leaf",
@@ -404,10 +302,27 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Learning tools/Welcome, Learning Obsidian.md"
+                "file": "Paytm fullstack.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Welcome, Learning Obsidian"
+              "title": "Outline of Paytm fullstack"
+            }
+          }
+        ]
+      },
+      {
+        "id": "7a0e291125147b34",
+        "type": "tabs",
+        "dimension": 27.11864406779661,
+        "children": [
+          {
+            "id": "f84345b7d45c8e03",
+            "type": "leaf",
+            "state": {
+              "type": "timer-view",
+              "state": {},
+              "icon": "timer",
+              "title": "Timer"
             }
           }
         ]
@@ -415,7 +330,7 @@
       {
         "id": "80cffb35488acdaf",
         "type": "tabs",
-        "dimension": 35.80901856763926,
+        "dimension": 27.199354317998385,
         "children": [
           {
             "id": "be7abcf5ea8bb47c",
@@ -431,7 +346,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 395.5
+    "width": 344.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -448,54 +364,53 @@
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "templater-obsidian:Templater": false,
-      "obsidian-kanban:Create new board": false,
-      "obsidian-full-calendar:Open Full Calendar": false
+      "obsidian-kanban:Create new board": false
     }
   },
-  "active": "6749b8521cfae6ad",
+  "active": "3d7f76c8c8087133",
   "lastOpenFiles": [
-    "Web Development/Javascript/JavaScript Basics.md",
-    "999 templates/{{topic}}.md",
-    "999 templates/Daily template.md",
-    "999 templates/Untitled.md",
-    "COHORT.md",
-    "Daily Notes/2025-02-10.md",
-    "Daily Notes/2025-02-09.md",
-    "TODO.md",
+    "Web Development/Reactjs/React Class.md",
+    "Managerial/Youtube Watchlist.md",
     "Projects/AR Visiting Card.md",
-    "Reading List.md",
-    "Youtube Watchlist.md",
-    "Web Development/Javascript/JS probelms from Assignments.md",
-    "Mental Wellbeing/ADHD.md",
-    "Web Development/NOTES/JavaScript Interview.md",
-    "Web Development/Javascript/Async Await - freecodecamp.md",
-    "Web Development/Javascript/Async Await Promise.md",
-    "Web Development/NOTES/Drawing 2025-01-14 17.27.03.excalidraw.md",
-    "Web Development/Imp and random/Node JS.md",
-    "Learning tools/Welcome, Learning Obsidian.md",
-    "WEB-3/Web 3 & Blockchain Roadmap.md",
-    "Web3 COHORT.md",
+    "WEB-3/Web3 COHORT.md",
+    "Cohort Revision 2.0.md",
+    "Mental Wellbeing/ALL good.md",
+    "Managerial/Reading List.md",
+    "Mental Wellbeing/All bad.md",
+    "2025.md",
+    "Productivity.md",
+    "Managerial/Todo.md",
+    "Managerial/Todo 1.md",
+    "Web Development/Remote Job, freelancing.md",
+    "Projects/How to plan a project.md",
+    "Projects/Paytm fullstack.md",
+    "Untitled",
+    "Web Development/NOTES/TypeScript Interview.md",
+    "Web Development/NOTES/React Interview.md",
+    "Web Development/Reactjs/03 Context API, prop drilling.md",
+    "Web Development/Reactjs/02 React Hooks.md",
+    "Projects/Documentation of ARVR card.md",
+    "jj.md",
+    "Managerial/TODO.md",
+    "Projects/Portfolio Site.md",
+    "Excalidraw/Drawing 2025-01-15 16.55.23.excalidraw.md",
+    "Managerial",
+    "Web Development/SWE Topics Revision.md",
+    "ATS.md",
+    "Excalidraw",
+    "Untitled.canvas",
+    "Recording 20250115165025.webm",
     "Assets",
     "Web Development/Interview",
-    "Web Development/NOTES/React Interview.md",
-    "ATS.md",
-    "WEB-3/Blockchain.md",
     "WEB-3/bitcoin.pdf",
-    "Web Development/Vim.md",
     "Mental Wellbeing",
-    "Advance BACKEND.md",
     "Startup diaries/web3",
     "Web Development/Imp and random",
-    "Web Development/NOTES",
-    "Web Development/Next JS",
-    "Rules to live by/Relationship",
-    "Rules to live by/Inspiration",
     "WEB-3/Assets/Pasted image 20240818025615.png",
     "WEB-3/Assets/Pasted image 20240818134401.png",
     "Pasted image 20240810220842.png",
     "Untitled 1.canvas",
     "Untitled 2.canvas",
-    "Untitled.canvas",
     "Web Development/Assets/Pasted image 20240127012230.png",
     "Web Development/Assets/Pasted image 20240127021202.png"
   ]

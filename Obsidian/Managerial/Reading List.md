@@ -25,25 +25,7 @@
 
 
 ---
-# **Web Technology**
 
-- [ ] *Cohort 2.0*
-	- [ ]  WebRTC Project setup - wk 23.2
-		- [ ] [omegal clone - harkirat yt]
-	- [ ] CI/CD
-	- [ ] Paytm Client fullStack week - 17,18
-	- [ ] orientation revision 
-		    // deep dive in pr and conribution
-			// talks a lot about about project setup 
-			// imp if you are contributing
-	- [ ] solana fellowship [Adhoc]
-	- [ ] eslint [Adhoc]
-		- not imp as of now 
-		- used during project setup
-	- [ ] qraphql [classx Adhoc]
-	- [ ] Trpc [Adhoc]
-	- [ ] bash video by Lisha wk2
-	- [ ] 
 - [ ] Git
 	- [ ] https://cbea.ms/git-commit/
 	- [ ] https://jarv.is/notes/how-to-pull-request-fork-github/
@@ -56,17 +38,14 @@
 
 - [ ] [ Web Design ](https://www.youtube.com/watch?v=VP7yuZI1pAY)
 - [ ] figma webprodigies
-- [ ] UI/Ux keshav 1
-- [ ] UIUx keshav 2
-- [ ] 
 
 ---
 # **Web Projects**
 - [ ] *Projects for skill development 
-	- [ ] Omegale APP //Harkirat yt
 	- [ ] Paytm Fullstack APP //cohort
-		- [ ] client // PART-1
+		- [x] client // PART-1
 		- [ ] Merchant // PART-2
+	- [ ] Excahnge project
 	- [ ] Zapier
 - [ ] *Ideated projects
 	- [ ] ARVR Visiting Card //for HTF
@@ -76,6 +55,9 @@
 
 ---
 # **Core Computer Science**
+### Typescript
+https://www.typescriptlang.org/docs/handbook/intro.html#about-this-handbook
+
 
 
 

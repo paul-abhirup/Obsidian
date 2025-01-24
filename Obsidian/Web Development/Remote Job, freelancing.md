@@ -61,6 +61,8 @@
 		There's a list of conribution I've made to various companies
 		I have made a redesign of your website and deployed it here - 
 		 vercel.yc.com
+		 
+		
 - Types of companies at YC
 	- AI companies(50%)
 	- web3
