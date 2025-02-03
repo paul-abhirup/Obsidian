@@ -1,17 +1,26 @@
-# **Web3**
+IMPORTANT links -->
+https://groundzero.superteam.fun/
 
-
+## Alchemy Docs
+https://docs.alchemy.com/docs/tutorials-overview
 
 ## Bitcoin
 
 - [ ] What Has Government Done To Our Money ---  Murray Rothbard
-- [ ] https://github.com/kallerosenbaum/grokkingbitcoin
-- [ ] https://github.com/lnbook/lnbook?tab=readme-ov-file
+- [ ] Grokking Bitcoin 
+	- [ ] Lecture
+	- [ ] Book
+- [ ] bitcoin pdf
 - [ ] https://github.com/lightningnetwork/lnd
 - [ ] https://github.com/lightning/bolts
 - [ ] https://github.com/lightninglabs/neutrino
 - [ ] https://github.com/lightninglabs/
 - [ ] 
+
+Books ---
+- [Mastering the Lightning Network (LN)](https://github.com/lnbook/lnbook?tab=readme-ov-file)
+- [Mastering Bitcoin 3rd Edition - Programming the Open Blockchain](https://github.com/bitcoinbook/bitcoinbook)
+- 
 
 ## Solana 
 - [ ] https://github.com/solana-developers/developer-bootcamp-2024?tab=readme-ov-file
@@ -30,9 +39,11 @@
 	- [ ] https://cbea.ms/git-commit/
 	- [ ] https://jarv.is/notes/how-to-pull-request-fork-github/
 	- [ ] https://github.blog/developer-skills/github/how-to-write-the-perfect-pull-request/
+	- [ ] https://www.freecodecamp.org/news/how-to-contribute-to-open-source-projects-beginners-guide/
 	- [ ] Hitesh
 		- [ ] https://www.youtube.com/watch?v=q8EevlEpQ2A
 		- [ ] https://docs.chaicode.com/git-and-github/
+	- [ ] https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners
 	- [ ] 
 - [ ] 
 

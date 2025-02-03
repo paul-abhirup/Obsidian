@@ -1,6 +1,50 @@
 #js #javascript 
 
 ```js
+
+/*
+  Write a function `isAnagram` which takes 2 parameters and returns true/false if those are anagrams or not.
+  What's Anagram?
+  - A word, phrase, or name formed by re-arranging the letters of another, such as spar, formed from rasp.
+*/
+
+function isAnagram(str1, str2) {
+  // Convert the strings to lowercase and remove any non-alphabetic characters
+  const cleanStr1 = str1.toLowerCase().replace(/[^a-z]/g, '');
+  const cleanStr2 = str2.toLowerCase().replace(/[^a-z]/g, '');
+
+  // Sort the characters in the strings
+  const sortedStr1 = cleanStr1.split('').sort().join('');
+  const sortedStr2 = cleanStr2.split('').sort().join('');
+
+  // Compare the sorted strings
+  if(sortedStr1 === sortedStr2){
+    console.log("true")
+  }else{
+    console.log("false")
+  }
+}
+
+// module.exports = isAnagram;
+isAnagram("openai", "aipen");
+
+//explanation ----------------
+// replace(/[^a-z]/g, '')
+//replace() -- this finds and replace occurances of the pattern wihtin the string
+// [] - character set 
+// ^ - negation 
+// this says that anything that is doesnt belong to any of a-z should be replaced with ''
+//g is the global flag
+
+//const str = "Hello, W00rld!";
+//const newStr1 = str.replace(/0/g, 'o'); // Replaces all '0' with 'o'
+c//onsole.log(newStr1); // Output: "Hello, Woorld!"
+
+//const newStr2 = str.replace(/0/, 'o'); // Replaces only the first '0'
+//console.log(newStr2); // Output: "Hello, Wo0rld!"
+
+
+
 -----------------------------------------------------------------
 /*
   Implement a function `calculateTotalSpentByCategory` which takes a list of transactions as parameter
@@ -175,7 +219,7 @@ calculateTime(1000000);
 // }
 
 
---------------------------------------------------------------------------
+--------------------------------------------------------------------
 /*
   Implement a class `Calculator` having below methods
     - initialise a result variable in the constructor and keep updating it after every arithmetic operation
@@ -361,49 +405,6 @@ module.exports = Todo;
 
 ```
 
-
-```js
-
-//class declaration
-//helps in writing resuable code ; 
-//class is a blueprint for creating objects with pre-defined properties and methods
-//class gives out the structure to create objects
-
-class Animal {
-  constructor(name, legCount, speaks) {
-    this.name = name
-    this.legCount = legCount
-    this.speaks = speaks
-  }
-  describe() {
-    return `${this.name} has ${this.legCount} legs and speaks ${this.speaks}`
-  }
-  //this describe can be called on the object of the calls
-  //like dog.describe()
-  // but cant be called on the class itself
-
-  static speaks() {
-    return "I am an animal"
-  }
-  //static methods are distinctive to a class and not to the object
-  //static methods are called on the class itself and not on the object
-  // like this statics is available for animal class and not for the object dog
-}
-
-
-//bad practice
-// let dog = {
-//   name : "dog",
-//   ...
-// }
-
-//good practice
-let dog = new Animal("dog", 4, "bhow bhow ")
-//this creates object of a class
-
-dog.speaks();// calls function on the object  //dog object created  by the class
-```
-
 ### Async
 ```js
 // ## Create a counter in JavaScript
@@ -418,6 +419,8 @@ function increaseAndPrint() {
 setInterval(increaseAndPrint, 1000);
 
 
+-----------------------------------------------------------------
+
 // ## Counter without setInterval
 // Without using setInterval, try to code a counter in Javascript
 
@@ -428,6 +431,7 @@ function increaseAndPrint() {
   setTimeout(increaseAndPrint, 1000);
 }
 setTimeout(increaseAndPrint, 1000);
+
 -----------------------------------------------------------------
 
 // ## Reading the contents of a file
@@ -563,6 +567,7 @@ async function cleanFile(filename) {
 // Usage
 const filename = "a.txt";
 cleanFile(filename);
+
 -----------------------------------------------------------------
 
 /*
@@ -589,6 +594,7 @@ wait(2).then(() => {
   console.log("2 seconds have passed");
 });
 // This will log "2 seconds have passed" after waiting for 2 seconds.
+
 -----------------------------------------------------------------
 
 
@@ -666,6 +672,7 @@ example();
 // 2 seconds later
 
 -----------------------------------------------------------------
+Promise all
 
 /*
  * Write 3 different functions that return promises that resolve after t1, t2, and t3 seconds respectively.
@@ -723,6 +730,7 @@ calculateTime(1, 2, 3).then((time) => {
 // This reflects the maximum of t1, t2, and t3 because Promise.all resolves when all promises have completed.
 
 -----------------------------------------------------------------
+Promise chain
 
 /*
  * Write 3 different functions that return promises that resolve after t1, t2, and t3 seconds respectively.
@@ -789,48 +797,6 @@ calculateTime(1, 2, 3).then((time) => {
 
 
 -----------------------------------------------------------------
-
-/*
-  Write a function `isAnagram` which takes 2 parameters and returns true/false if those are anagrams or not.
-  What's Anagram?
-  - A word, phrase, or name formed by re-arranging the letters of another, such as spar, formed from rasp.
-*/
-
-function isAnagram(str1, str2) {
-  // Convert the strings to lowercase and remove any non-alphabetic characters
-  const cleanStr1 = str1.toLowerCase().replace(/[^a-z]/g, '');
-  const cleanStr2 = str2.toLowerCase().replace(/[^a-z]/g, '');
-
-  // Sort the characters in the strings
-  const sortedStr1 = cleanStr1.split('').sort().join('');
-  const sortedStr2 = cleanStr2.split('').sort().join('');
-
-  // Compare the sorted strings
-  if(sortedStr1 === sortedStr2){
-    console.log("true")
-  }else{
-    console.log("false")
-  }
-}
-
-// module.exports = isAnagram;
-isAnagram("openai", "aipen");
-
-//explanation ----------------
-// replace(/[^a-z]/g, '')
-//replace() -- this finds and replace occurances of the pattern wihtin the string
-// [] - character set 
-// ^ - negation 
-// this says that anything that is doesnt belong to any of a-z should be replaced with ''
-//g is the global flag
-
-//const str = "Hello, W00rld!";
-//const newStr1 = str.replace(/0/g, 'o'); // Replaces all '0' with 'o'
-c//onsole.log(newStr1); // Output: "Hello, Woorld!"
-
-//const newStr2 = str.replace(/0/, 'o'); // Replaces only the first '0'
-//console.log(newStr2); // Output: "Hello, Wo0rld!"
-
 
 
 ```

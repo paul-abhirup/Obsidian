@@ -1,3 +1,5 @@
+
+
 normal productivity not work efficiently for the adhd brain 
 lack of dopamine receptors / low dopamine 
 - lack in motivation 

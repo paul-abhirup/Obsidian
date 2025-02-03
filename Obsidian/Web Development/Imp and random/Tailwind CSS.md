@@ -1,10 +1,3 @@
-common styling attributes in CSS
-- color 
-- background 
-- border-radius 
-- border 
-- padding/ margin
-- box-shadow
 
 things to know for frontend styling 
 - flex

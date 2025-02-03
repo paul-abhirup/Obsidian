@@ -27,10 +27,14 @@ https://www.youtube.com/watch?v=IoFbXdt18BA
 // using AI API
 - [ ] https://www.youtube.com/watch?v=1qCyRAVEeoU
 
+SRE https://www.youtube.com/watch?v=ztIIcXNzMN4
+
 ## Interview
 https://www.youtube.com/watch?v=u17n3UaH82k
 
 ## ADHD
+adhd advantage book
+
 https://www.youtube.com/watch?v=u-XDOnSSUzI
 https://www.youtube.com/watch?v=LZacXMQmSG8
 https://www.youtube.com/watch?v=DvuVhCIQgfQ
@@ -48,3 +52,26 @@ Obsidian
 https://www.youtube.com/watch?v=6B4Yn2o3UvI
 https://www.youtube.com/watch?v=j2_qc-vxCNY
 https://www.youtube.com/watch?v=LyOIvoHtRCM&list=TLPQMTUwMTIwMjUBCzjWQIL_7g&index=12
+
+
+how to use media pipe --->
+- how to integrate whole body model, posture detection, etc
+https://www.youtube.com/watch?v=pG4sUNDOZFg&list=TLPQMzEwMTIwMjXPSZTiSvcqFA&index=4
+ uses medapipe, python to build apps
+
+LLM, mlops --- by 100xDevs
+https://www.youtube.com/watch?v=mDluafUR4e4
+
+how no code buid tools work
+https://www.youtube.com/watch?v=Bj2ly9PMdPI
+
+SAAS business
+https://www.youtube.com/watch?v=DsCi3VN1b4o
+https://www.youtube.com/watch?v=WZ8g6deOyAk
+https://www.youtube.com/watch?v=alasmVziivs
+
+money making lead generation
+https://www.youtube.com/watch?v=zokaHBMI6vg&list=TLPQMDMwMjIwMjUP9_-H2Vs19w&index=5
+
+building ai agents
+https://www.youtube.com/watch?v=AWQ6DaCy46U

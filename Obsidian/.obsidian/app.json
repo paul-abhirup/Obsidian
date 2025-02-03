@@ -1,7 +1,6 @@
 {
   "promptDelete": false,
   "alwaysUpdateLinks": true,
-  "showRibbon": true,
   "showInlineTitle": true,
   "vimMode": false,
   "showLineNumber": false,

@@ -355,6 +355,109 @@ for the understandding of the DOM
 
 ```
 
+
+
+ECMA scripts , ecma scripts standard --- js spec
+loupe
+settimeout was never part of ecma 
+its a part of browser spec
+settimeout , fetch ,setinterval, document -- browser spec
+
+### DOM ---- document object model
+class vs ids in html 
+```html
+<html>
+  <script>
+    function populateDiv() {
+      // Retrieve values from input fields
+      const a = document.getElementById("firstNumber").value;
+      const b = document.getElementById("secondNumber").value;
+
+      // Make a fetch API call to the backend
+      fetch("<https://sum-server.100xdevs.com/sum?a=>" + a + "&b=" + b)
+        .then(function(response) {
+          // Parse the response as text
+          response.text()
+            .then(function(ans) {
+              // Display the result in the "finalSum" div
+              document.getElementById("finalSum").innerHTML = ans;
+            });
+        });
+    }
+
+			// Async function for populating the "finalSum" div
+		    async function populateDiv2() {
+		      // Retrieve values from input fields
+		      const a = document.getElementById("firstNumber").value;
+		      const b = document.getElementById("secondNumber").value;
+		
+		      // Make a fetch API call to the backend using async/await
+		      const response = await fetch("https://sum-server.100xdevs.com/sum?a=" + a + "&b=" + b);
+		      const ans = await response.text();
+		
+		      // Display the result in the "finalSum" div
+		      document.getElementById("finalSum").innerHTML = ans;
+		    }
+
+  </script>
+  <body>
+    <!-- Input fields for numbers -->
+    <input id="firstNumber" type="text" placeholder="First number"></input> <br></br>
+    <input id="secondNumber" type="text" placeholder="Second number"></input> <br></br>
+
+    <!-- Button to trigger the calculation -->
+    <button onclick="populateDiv()">Calculate sum</button> <br></br>
+
+    <!-- Display area for the final sum -->
+    <div id="finalSum"></div>
+  </body>
+</html>
+```
+understanding why fetch call not working 
+
+Debouncing 
+```html
+<html>
+  <body>
+    <!-- Input field with onInput event and debouncing -->
+    <input id="textInput" type="text" onInput="debounce(handleInput, 500)" placeholder="Type something...">
+
+    <!-- Display area for the debounced input value -->
+    <p id="displayText"></p>
+
+    <script>
+      // Debounce function to delay the execution of a function
+      function debounce(func, delay) {
+        let timeoutId;
+
+        return function() {
+          // Clear the previous timeout
+          clearTimeout(timeoutId);
+
+          // Set a new timeout
+          timeoutId = setTimeout(() => {
+            func.apply(this, arguments);
+          }, delay);
+        };
+      }
+
+      // Function to handle the debounced onInput event
+      function handleInput() {
+        // Get the input field's value
+        const inputValue = document.getElementById("textInput").value;
+
+        // Display the input value in the paragraph
+        document.getElementById("displayText").innerText = "You typed: " + inputValue;
+
+        // Simulate sending a request (replace with actual AJAX call)
+        console.log("Request sent:", inputValue);
+      }
+    </script>
+  </body>
+</html>
+```
+
+
 ## 03. Objects
 ```js
 //oblect declaration
@@ -635,6 +738,50 @@ console.log(Rectangle1.paint());
 console.log(Rectangle1.getDescription());
 ```
 
+example of class decalration
+
+
+```js
+
+//class declaration
+//helps in writing resuable code ; 
+//class is a blueprint for creating objects with pre-defined properties and methods
+//class gives out the structure to create objects
+
+class Animal {
+  constructor(name, legCount, speaks) {
+    this.name = name
+    this.legCount = legCount
+    this.speaks = speaks
+  }
+  describe() {
+    return `${this.name} has ${this.legCount} legs and speaks ${this.speaks}`
+  }
+  //this describe can be called on the object of the calls
+  //like dog.describe()
+  // but cant be called on the class itself
+
+  static speaks() {
+    return "I am an animal"
+  }
+  //static methods are distinctive to a class and not to the object
+  //static methods are called on the class itself and not on the object
+  // like this statics is available for animal class and not for the object dog
+}
+
+
+//bad practice
+// let dog = {
+//   name : "dog",
+//   ...
+// }
+
+//good practice
+let dog = new Animal("dog", 4, "bhow bhow ")
+//this creates object of a class
+
+dog.speaks();// calls function on the object  //dog object created  by the class
+```
 
 ## 08. Functions in JS
 ```javascript
@@ -1050,6 +1197,11 @@ const add = (a) => (b) => (c) => a+b+c;
 
 # 8.8 Async Await Promise
 
+refference -
+- https://www.freecodecamp.org/news/javascript-async-await-tutorial-learn-callbacks-promises-async-await-by-making-icecream/
+- https://www.jsv9000.app/
+
+
 **I/O (Input/Output) heavy operations** refer to tasks in a computer program that involve a lot of data transfer between the program and external systems or devices. These operations usually require waiting for data to be read from or written to sources like disks, networks, databases, or other external devices, which can be time-consuming compared to in-memory computations.
 
 Examples --
@@ -1167,7 +1319,7 @@ l1(l2);
 ```
 
 
-#### Callback Hell  aka "nested callback"
+## Callback Hell  aka "nested callback"
 when callbacks are nested one over the other 
 issue -
 - difficult to debug 
@@ -1203,112 +1355,7 @@ let production = () =>{
 ```
 
 
-### Things to keep in mind
-
-1. You can only call `await` inside a function if that function is `async`
-2. You cant have a `top level await`
-3. its a syntactical sugar that lets you write async code in a sync style
-4. Build on top of Promises and allows you to avoid chaining `.then()` and `.catch()` methods while still working with asynchronous operations.
-
-```js
-
-//Q: Write code that
-//logs hi after 1 second
-//logs hello 3 seconds after step 1
-//logs hello there 5 seconds after step 2
-
-///////////////////////////////////////////////////
-//using Promise
-///////////////////////////////////////////////////
-function setTimeoutPromisified(ms) {
-  return new Promise((resolve) => setTimeout(resolve, ms));
-}
-
-setTimeoutPromisified(1000)
-  .then(function () {
-    console.log("hi");
-    return setTimeoutPromisified(3000);
-  })
-  .then(function () {
-    console.log("hello");
-    return setTimeoutPromisified(5000);
-  })
-  .then(function () {
-    console.log("hello there");
-  });
-
-
-///////////////////////////////////////////////////
-//using Async Await 
-///////////////////////////////////////////////////
-function  setTimeoutPromisified(ms) {
-  return new Promise((resolve) => setTimeout(resolve, ms));
-}
-
-async function Solve(){
-await setTimeoutPromisified(1000);
-    console.log("hi");
-await setTimeoutPromisified(3000);
-    console.log("hello");
-await setTimeoutPromisified(5000);
-    console.log("hello there");
-}
-
-Solve();
-
-```
-
-
-
-```js
-Write async funct that takes 
-- reads contents of a file 
-- trims the extra spaces from left and right 
-- write it back to the file 
-
-
-//callback approach 
-const fs = require("fs");
-function cleanFile(filePath, cb) {
-  fs.readFile(filePath, "utf-8", function (err, data) {
-    data = data.trim();
-    fs.writeFile(filePath, data, function () {
-      cb();
-    });
-  });
-}
-
-function onDone() {
-  console.log("file has been cleaned");
-}
-cleanFile("a.txt", onDone);
-
-///////////////////////////////////////////////////
-
-//promises
-const fs = require("fs");
-function cleanFile(filePath, cb) {
-  return new Promise(function (resolve) {
-    fs.readFile(filePath, "utf-8", function (err, data) {
-      data = data.trim();
-      fs.writeFile(filePath, data, function () {
-        resolve();
-      });
-    });
-  });
-}
-
-async function main() {
-  await cleanFile("a.txt");
-  console.log("Done cleaning file");
-}
-
-main();
-
-```
-
-
-### Promise class
+## Promise class
  
 A Promise in JavaScript is an object that represents the eventual completion (or failure) of an asynchronous operation and its resulting value. Promises are used to handle asynchronous operations more effectively than traditional callback functions, providing a cleaner and more manageable way to deal with code that executes asynchronously, such as API calls, file I/O, or timers.
 
@@ -1552,5 +1599,111 @@ function onError(err) {
 }
 
 readFilePromisified("a.txt").then(onDone).catch(onError);
+```
+
+## Async-Await
+
+### Things to keep in mind
+
+1. You can only call `await` inside a function if that function is `async`
+2. You cant have a `top level await`
+3. its a syntactical sugar that lets you write async code in a sync style
+4. Build on top of Promises and allows you to avoid chaining `.then()` and `.catch()` methods while still working with asynchronous operations.
+
+```js
+
+//Q: Write code that
+//logs hi after 1 second
+//logs hello 3 seconds after step 1
+//logs hello there 5 seconds after step 2
+
+///////////////////////////////////////////////////
+//using Promise
+///////////////////////////////////////////////////
+function setTimeoutPromisified(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+setTimeoutPromisified(1000)
+  .then(function () {
+    console.log("hi");
+    return setTimeoutPromisified(3000);
+  })
+  .then(function () {
+    console.log("hello");
+    return setTimeoutPromisified(5000);
+  })
+  .then(function () {
+    console.log("hello there");
+  });
+
+
+///////////////////////////////////////////////////
+//using Async Await 
+///////////////////////////////////////////////////
+function  setTimeoutPromisified(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+async function Solve(){
+await setTimeoutPromisified(1000);
+    console.log("hi");
+await setTimeoutPromisified(3000);
+    console.log("hello");
+await setTimeoutPromisified(5000);
+    console.log("hello there");
+}
+
+Solve();
+
+```
+
+
+
+```js
+Write async funct that takes 
+- reads contents of a file 
+- trims the extra spaces from left and right 
+- write it back to the file 
+
+
+//callback approach 
+const fs = require("fs");
+function cleanFile(filePath, cb) {
+  fs.readFile(filePath, "utf-8", function (err, data) {
+    data = data.trim();
+    fs.writeFile(filePath, data, function () {
+      cb();
+    });
+  });
+}
+
+function onDone() {
+  console.log("file has been cleaned");
+}
+cleanFile("a.txt", onDone);
+
+///////////////////////////////////////////////////
+
+//promises
+const fs = require("fs");
+function cleanFile(filePath, cb) {
+  return new Promise(function (resolve) {
+    fs.readFile(filePath, "utf-8", function (err, data) {
+      data = data.trim();
+      fs.writeFile(filePath, data, function () {
+        resolve();
+      });
+    });
+  });
+}
+
+async function main() {
+  await cleanFile("a.txt");
+  console.log("Done cleaning file");
+}
+
+main();
+
 ```
 

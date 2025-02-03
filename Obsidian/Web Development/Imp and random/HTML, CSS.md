@@ -98,7 +98,13 @@ hard stuff ----
 ### Attributes examples
 
 ```html
-<p id="my-id" class="my-class">Hello world</p><img src="image.jpg" alt="Image"><a href="https://www.google.com">Google</a><input type="text" placeholder="Enter your name"><button>Click me</button>
+<p id="my-id" class="my-class">
+	Hello world
+</p>
+<img src="image.jpg" alt="Image">
+<a href="https://www.google.com">Google</a>
+<input type="text" placeholder="Enter your name">
+<button>Click me</button>
 ```
 
 - `id="my-id"` - Adds an `id` attribute with the value `my-id`
@@ -141,3 +147,105 @@ Some examples of HTML5 attributes are:
 - `<video>` - Video
 - `<audio>` - Audio
 - `<source>` - Source
+
+---
+---
+# CSS
+
+cascading style sheets
+
+common styling attributes - 
+- font-size
+- color  
+	  - gives font colour to the text
+- background
+	  - gives bacground colour to the element
+- border-radius
+	  - rounded border shapes
+- border
+	  - this tells how the border is 
+	    border: 1px solid black // gives a solid black border
+	    border: 1px dotted black // gives a dotted black border
+- padding 
+		- space from the top or bottom; // inside the div
+		- 
+- margin
+	  - space added outside the div
+	    margin: 50px;
+	    // means outside the div element 50px will be added to the top to the right, left , bottom
+- box-shadow
+	  - gives shadow to the box element
+
+Example of the code --
+```css
+<h1 style= "
+font-size: 100px;
+color: red;
+background: aqua; 
+border-radius: 10px; 
+padding: 10px; 
+margin: 20px;
+box-shadow: 2px 10px 10px black;
+">
+hi there ;
+</h1>
+```
+
+previously we position elements by using padding 
+padding-left = 10px
+padding-right = 20 px
+this are the not the optimum ways so we use
+
+- flexbox
+- grid
+  
+
+---
+---
+# Emmit
+
+Emmit is a code snippets manager for VS Code. It is used to create HTML code faster. Emmit is a must-have tool for any web developer. In VS Code, Emmit is enabled by default. It works only after you have created a new HTML file.
+
+> Learn the shortcuts and just press the tab or enter key to get the code you want.
+
+## Some common Emmit shortcuts
+
+- `!` - Inserts a `<!DOCTYPE html>` tag
+- `h1` - Inserts a `<h1>` tag
+- `h2` - Inserts a `<h2>` tag
+- `p` - Inserts a `<p>` tag
+- `img` - Inserts an `<img>` tag
+- `a` - Inserts an `<a>` tag
+- `ul` - Inserts an `<ul>` tag
+- `ul>li` - Inserts a `<li>` tag inside an `<ul>` tag
+- `ul>li>a` - Inserts an `<a>` tag inside a `<li>` tag inside an `<ul>` tag
+- `ul>li*3` - Inserts 3 `<li>` tags inside an `<ul>` tag
+- `div` - Inserts a `<div>` tag
+- `div>p` - Inserts a `<p>` tag inside a `<div>` tag
+- `div>p*3` - Inserts 3 `<p>` tags inside a `<div>` tag
+
+### ID and Class
+
+- `#` - Inserts an `id` attribute
+- `.` - Inserts a `class` attribute
+
+Example:
+
+- `#my-id` - Inserts an `id` attribute with the value `my-id`
+- `.my-class` - Inserts a `class` attribute with the value `my-class`
+
+### Grouping
+
+- `div>(header>ul>li*2>a)+footer>p` - Inserts a `<div>` tag with a `<header>` tag inside it, a `<ul>` tag inside it, and 2 `<li>` tags inside the `<ul>` tag. Then it inserts an `<a>` tag inside each `<li>` tag. Finally it inserts a `<footer>` tag and a `<p>` tag inside it.
+
+> Yep, it can go little bit crazy. But you don’t have to worry about it. Rarely you will need to use it.
+
+### CSS shortcuts
+
+- `style` - Inserts a `<style>` tag
+- `pos` - Inserts a `position` property
+- `pos:absolute` - Inserts a `position` property with the value `absolute`
+- `bgc` - Inserts a `background-color` property
+- `bgc:red` - Inserts a `background-color` property with the value `red`
+- `ma` - Inserts a `margin:auto` property
+

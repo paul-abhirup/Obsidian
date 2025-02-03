@@ -13,5 +13,6 @@
   "showViewHeader": true,
   "baseFontSizeAction": true,
   "interfaceFontFamily": "0xProto Nerd Font",
-  "monospaceFontFamily": "0xProto Nerd Font"
+  "monospaceFontFamily": "0xProto Nerd Font",
+  "showRibbon": true
 }
