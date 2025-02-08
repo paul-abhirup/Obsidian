@@ -5,9 +5,6 @@ https://www.youtube.com/watch?v=aw9-4BnvCQU
 --mental models
 https://www.youtube.com/watch?v=S5SBcAuqCSg
 
---game theory 
-
-
 --money laundering
 https://www.youtube.com/watch?v=R5FSXCYrlt0
 
@@ -33,7 +30,8 @@ SRE https://www.youtube.com/watch?v=ztIIcXNzMN4
 https://www.youtube.com/watch?v=u17n3UaH82k
 
 ## ADHD
-adhd advantage book
+
+ADHD advantage book
 
 https://www.youtube.com/watch?v=u-XDOnSSUzI
 https://www.youtube.com/watch?v=LZacXMQmSG8
@@ -57,7 +55,7 @@ https://www.youtube.com/watch?v=LyOIvoHtRCM&list=TLPQMTUwMTIwMjUBCzjWQIL_7g&inde
 how to use media pipe --->
 - how to integrate whole body model, posture detection, etc
 https://www.youtube.com/watch?v=pG4sUNDOZFg&list=TLPQMzEwMTIwMjXPSZTiSvcqFA&index=4
- uses medapipe, python to build apps
+uses medapipe, python to build apps
 
 LLM, mlops --- by 100xDevs
 https://www.youtube.com/watch?v=mDluafUR4e4
@@ -75,3 +73,6 @@ https://www.youtube.com/watch?v=zokaHBMI6vg&list=TLPQMDMwMjIwMjUP9_-H2Vs19w&inde
 
 building ai agents
 https://www.youtube.com/watch?v=AWQ6DaCy46U
+
+RAG AI related
+https://www.youtube.com/watch?v=sVcwVQRHIc8

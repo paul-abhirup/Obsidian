@@ -8,53 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6e533e25476fe048",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2025.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "2025"
-            }
-          },
-          {
-            "id": "e8efdc2fe382495d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Managerial/Youtube Watchlist.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Youtube Watchlist"
-            }
-          },
-          {
-            "id": "ef122b9ed72bdc85",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Web Development/Javascript/JavaScript Basics.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "JavaScript Basics"
-            }
-          },
-          {
             "id": "5d470abbdee9dfae",
             "type": "leaf",
             "pinned": true,
@@ -72,63 +25,65 @@
             }
           },
           {
-            "id": "1bf8b4f317583dc4",
+            "id": "6e533e25476fe048",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2025.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "2025"
+            }
+          },
+          {
+            "id": "6eb8d31e7a6625f1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "What goverment done to our money.md",
+                "file": "Projects/Health Care System.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "What goverment done to our money"
+              "title": "Health Care System"
             }
           },
           {
-            "id": "98a621b044e99328",
+            "id": "e961fc305ecb6d0c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Eye Tracker.md",
+                "file": "Typescript.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Eye Tracker"
+              "title": "Typescript"
             }
           },
           {
-            "id": "d9e4f7d8ccd661c7",
+            "id": "cb2465d4378dde43",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/AR Visiting Card.md",
+                "file": "Web Development/Interview NOTES/TypeScript Interview.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "AR Visiting Card"
-            }
-          },
-          {
-            "id": "6c7ee68514018192",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Web Development/Javascript/JavaScript Basics.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "JavaScript Basics"
+              "title": "TypeScript Interview"
             }
           },
           {
@@ -174,6 +129,21 @@
               },
               "icon": "lucide-file",
               "title": "JavaScript Basics"
+            }
+          },
+          {
+            "id": "a5397210062f9c6f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Web Development/Javascript/Async Await Promise.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Async Await Promise"
             }
           },
           {
@@ -249,7 +219,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 252.52756881713867
+    "width": 252.52756881713867,
+    "collapsed": true
   },
   "right": {
     "id": "51c96f36758cc938",
@@ -344,7 +315,8 @@
               "title": "Outline of Paytm fullstack"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "7a0e291125147b34",
@@ -382,7 +354,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 344.5
+    "width": 344.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -402,45 +375,45 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "e8efdc2fe382495d",
+  "active": "6e533e25476fe048",
   "lastOpenFiles": [
+    "Projects/Health Care System.md",
     "2025.md",
+    "Web Development/Imp and random/HTML, CSS.md",
+    "Typescript.md",
+    "Web Development/Interview NOTES/TypeScript Interview.md",
+    "Untitled",
+    "Projects/Assets/Pasted image 20250207211213.png",
+    "Web Development/Javascript/Async Await Promise.md",
+    "Web Development/Reactjs/React Class.md",
     "Web Development/Javascript/JavaScript Basics.md",
-    "Web Development/Javascript/Async Await - freecodecamp.md",
+    "Projects/AR Visiting Card.md",
+    "What goverment done to our money.md",
+    "Projects/MetaVerse Project.md",
+    "IB, banking and finance.md",
+    "Projects/AI Gym trainer.md",
+    "Cohort Revision 2.0.md",
     "Managerial/Youtube Watchlist.md",
+    "Projects/Hackathon Presentation.md",
+    "Projects/How to plan a project.md",
+    "Startup.md",
+    "Web Development/Javascript/Async Await - freecodecamp.md",
     "Excalidraw/Drawing 2025-02-02 17.25.35.excalidraw.md",
     "Excalidraw",
     "ATS.md",
-    "Cohort Revision 2.0.md",
-    "What goverment done to our money.md",
-    "Eye Tracker.md",
-    "Projects/AR Visiting Card.md",
-    "Web Development/Imp and random/HTML, CSS.md",
+    "Projects/Eye Tracker.md",
     "Web Development/Imp and random/Tailwind CSS.md",
     "Managerial/WEB3 Reading List.md",
-    "Untitled.md",
     "Web Development/Web Dev Track.md",
-    "Web Development/MERN Projects Ideas and resources.md",
-    "Web Development/Backend & Fullstack Roadmap.md",
-    "Web Development/Reactjs/React Class.md",
-    "Mental Wellbeing/Productivity.md",
-    "Web Development/Imp and random/CSS.md",
     "Web Development/UI-UX",
-    "Projects/Documentation of ARVR card.md",
-    "Web Development/Imp and random/Vim.md",
-    "Web Development/UI-UX/Web Design.md",
-    "Web Development/Imp and random/Emmit.md",
-    "Web Development/Javascript/JS probelms from Cohort Assignment.md",
-    "Web Development/Javascript/DOM.md",
     "Managerial",
     "Assets/Excalidraw",
     "Untitled.canvas",
     "Recording 20250115165025.webm",
-    "Assets",
+    "Projects/Assets",
     "Web Development/Interview",
     "WEB-3/bitcoin.pdf",
     "Mental Wellbeing",
-    "Startup diaries/web3",
     "WEB-3/Assets/Pasted image 20240818025615.png",
     "WEB-3/Assets/Pasted image 20240818134401.png",
     "Pasted image 20240810220842.png",
