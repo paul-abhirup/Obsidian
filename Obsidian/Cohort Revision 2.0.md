@@ -9,6 +9,8 @@
 	- [ ] Todo list
 	- [ ] Todo app
 - [ ] React Hooks
+- [ ] Context API
+- [ ] Recoil
 - [ ] wk 11,12
 	- [ ] serverless backends
 	- [ ] aws
@@ -18,7 +20,7 @@
 	- [ ] prisma
 	- [ ] connection polling in serverless
 	- [ ] advnc ts
-- [ ] ts
+- [x] ts
 - [ ] next js, monorepo
 - [ ] next-auth
 - [ ] middlewares in next js

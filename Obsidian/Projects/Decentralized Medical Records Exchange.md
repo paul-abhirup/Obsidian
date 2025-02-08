@@ -74,7 +74,7 @@ dmre-project/
 
 ### **Estimated Timeline (4 Weeks Plan)**
 
-#### ✅ **Week 1: Research, Planning & Smart Contract Development**
+#### ✅ **Day 1: Research, Planning & Smart Contract Development**
 
 - Finalize the architecture (on-chain vs. off-chain storage, NFT structure, access control).
 - Write and test **Solidity Smart Contracts**:
@@ -88,7 +88,7 @@ dmre-project/
 - Use **OpenZeppelin** for security best practices.
 - Deploy initial contracts on **Polygon Mumbai Testnet** for testing.
 
-#### ✅ **Week 2: Backend API & Wallet Integration**
+#### ✅ **Day 2: Backend API & Wallet Integration**
 
 - Build Node.js/Express.js backend to:
     - Connect with smart contracts.
@@ -104,7 +104,7 @@ dmre-project/
 	- `POST /grant-access` → Grant a doctor access to records.
 - Develop access control logic (only approved wallets can retrieve records)
 
-#### ✅ **Week 3: Frontend Development & UI/UX**
+#### ✅ **Day 3: Frontend Development & UI/UX**
 
 - Build **React + Next.js** frontend:
     - Patient dashboard (Upload, Manage Records, Grant/Revoke Access).
@@ -116,7 +116,7 @@ dmre-project/
 - Implement UI components with **shadcn/ui** for a clean, modern look.
 - Ensure **responsiveness & accessibility**.
 
-#### ✅ **Week 4: Testing, Deployment & Final Refinements**
+#### ✅ **Day 4: Testing, Deployment & Final Refinements**
 
 - End-to-end testing (Smart Contracts, API, UI).
 - Smart Contracts Deployment
@@ -330,11 +330,10 @@ The architecture consists of **5 key layers**:
 	- Save the **contract address** and **ABI** for integration.
 	- Verify the contract on **Polygonscan** (optional but recommended).
 
-- backend development
+- backend development, Integartion
 
 
-- frontend development
-
+- frontend development, Integration
 
 
 

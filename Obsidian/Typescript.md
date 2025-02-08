@@ -33,7 +33,6 @@ const e: null = null;
 ### Hello world Greeting
 
 - learn how to give types to function and arguments
-
 ```ts
 // Write a TypeScript function named greet that takes a user's first name as an argument and logs a greeting message to the console.
 
@@ -50,7 +49,6 @@ name -> is of type string
 ### Sum Function
 
 - assign a return type to a function
-
 ```ts
 // Write a TypeScript function named sum that takes two numbers as arguments and returns their sum. Additionally, invoke the function with an example.
 
@@ -69,8 +67,7 @@ function sum(a: number, b: number): number {
 
 ### Age verification Function
 
-- learning type-interference 
-
+- learning type-inference 
 ```ts
 // Write a TypeScript function named isLegal that takes an age as a parameter and returns true if the user is 18 or older, and false otherwise. Also, invoke the function with an example.
 
@@ -93,7 +90,6 @@ this describes that the tsc compiler can can automatically infer the tyoe of the
 ### Delayed Function Execution
 
 - learn to work with function as parameter to a function
-
 ```ts
 // Write a TypeScript function named delayedCall that takes another function (fn) as input and executes it after a delay of 1 second. Also, invoke the delayedCall function with an example.
 
@@ -114,6 +110,7 @@ delayedCall(function () {
 
 this means that the function fn takes no arguments and returns void .
 
+initializa ts by `npx tsc --init`
 ## tsconfig.json
 
 1. target
@@ -129,12 +126,14 @@ this means that the function fn takes no arguments and returns void .
 
 4. notImpilcitAny
 		tells whether tsc should give any error when it encounters a variable with an implicit 'any' type 
-		false - no error will be published
-		true - error will be published 
+		false ---  false means that no error will be issued. for a variable with an implicit any type
+		true ---  error will be published for such variables
 
 5. removeComments
 
 ```ts
+/// tsconfig
+
 
 {
   "compilerOptions": {
@@ -142,8 +141,7 @@ this means that the function fn takes no arguments and returns void .
     "module": "commonjs" /* Specify what module code is generated. */,
     "rootDir": "./src" /* Specify the root folder within your source files. */,
     "outDir": "./dist" /* Specify an output folder for all emitted files. */,
-    "noImplicitAny": true, //determines whether TypeScript should issue an error when it encounters a variable with an implicit any type.
-    //false means that no error will be issued. for a variable with an implicit any type.
+    "noImplicitAny": true, //determines whether TypeScript should issue an error when it encounters a variable with an implicit any type..
     "removeComments": true //determines whether comments should be removed from the generated JavaScript files.
   }
 }
@@ -341,11 +339,54 @@ type User = {
 
 ### Types VS Interfaces
 
-|        Point of Difference         | Types                                                                           | Interfaces                                             |
-| :--------------------------------: | :------------------------------------------------------------------------------ | ------------------------------------------------------ |
-|         Declaration Syntax         | flexible syntax, can represent primitive types, unions, intersections, and more | Typically used for defining the structure of an object |
-|       Extension and Merging        |                                                                                 |                                                        |
-| Decalaration <br>Vs Implementation |                                                                                 |                                                        |
-|          Type Overriding           |                                                                                 |                                                        |
-|   Object literal <br>strictness    |                                                                                 |                                                        |
-|   Implementation <br>for classes   |                                                                                 |                                                        |
+|        Point of Difference         | Types                                                                                                                                    | Interfaces                                                                                                                        |
+| :--------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+|         Declaration Syntax         | flexible syntax, can represent primitive types, unions, intersections, and more                                                          | Typically used for defining the structure of an object                                                                            |
+|       Extension and Merging        | - supports extended types<br><br>- cant be merged if you define another type with the same name, it will just overrides the previous one | - Supports extending interfaces using the extends keyword.<br><br>- merges the same name interfaces, combining their declarations |
+| Decalaration <br>Vs Implementation | - suitable for describing the shape of the data <br><br>- represent any type, including primitives, unions, intersections, etc.          | - used to define contracts for classes<br><br>- mainly used to define the shape of the object                                     |
+|          Type Overriding           | - cannot be overridden, if so replaces the old one with the new one                                                                      | - merges if have the same name                                                                                                    |
+|   Object literal <br>strictness    | - lineant                                                                                                                                | - strict                                                                                                                          |
+
+Type Example - 
+```ts
+type StringOrNumber = string | number;
+
+function printId(id: StringOrNumber) {
+  console.log(`ID: ${id}`);
+}
+
+printId(101);       // ID: 101
+printId("202");     // ID: 202
+```
+
+Interface Example - 
+```ts
+interface Employee {
+  name: string;
+  startDate: Date;
+}
+
+interface Manager {
+  name: string;
+  department: string;
+}
+
+type TeamLead = Employee & Manager;
+
+const teamLead: TeamLead = {
+  name: "Harkirat",
+  startDate: new Date(),
+  department: "Software Developer",
+};
+```
+
+## When to Use Which
+
+- **Use Types:**
+    - For advanced scenarios requiring union types, intersections, or mapped types and flexibility.
+    - When dealing with primitive types, tuples, or non-object-related types.
+    - Creating utility types using advanced features like conditional types.
+- **Use Interfaces:**
+    - Objects shape, contracts, class implementations.
+    - Extending or implementing other interfaces.
+    - When consistency in object shape is a priority.
