@@ -8,16 +8,22 @@ Why are you building the project / What can I learn from it --
 	- Huge Frontend skill needed too
 - 
 
-features -
+*QDD [Question Driven Development]
+- Think of an end goal
+- Break it into a series of question or modules smallest parts then integrate them together; and google out things
+- Cloning to upskill and learn the art
+
+### Features -
  - talk in private lounges
 
 
-Harkirat thinking pattern
-- Architechture
-- Designing the API
-- Writing tests // TDD
-- now backend
-- ....
+### Harkirat thinking pattern
+- feature planning
+- designing architechture
+- question driven development
+- test driven development
+- solving bugs learning and applying
+- improving the app
 
 //// generaly, the frontend is a side track along with building the backend app.
 
@@ -101,7 +107,7 @@ Harkirat thinking pattern
 		}
 		```
 		
-- [ ] writing the tests (TDD) // Test driven development
+- [ ] writing the tests **(TDD) // Test driven development**
 - [ ] Creating a monorepo
 - [ ] writing the backend
 - [ ] writing the websocket layer

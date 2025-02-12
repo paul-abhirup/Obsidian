@@ -4,13 +4,21 @@
 - [ ] JWT MongoDB
 	- [ ] class
 	- [ ] assignment
+- [ ] DOM
 - [ ] React 
 	- [ ] wrapper component
 	- [ ] Todo list
 	- [ ] Todo app
 - [ ] React Hooks
-- [ ] Context API
+	- [ ] useState
+	- [ ] useEffect
+	- [ ] useRef
+	- [ ] useMemo
+	- [ ] useCallback
+- [ ] Context API, Prop Drilling
 - [ ] Recoil
+- [ ] Axios vs fetch
+- [ ] Custom Hooks
 - [ ] wk 11,12
 	- [ ] serverless backends
 	- [ ] aws

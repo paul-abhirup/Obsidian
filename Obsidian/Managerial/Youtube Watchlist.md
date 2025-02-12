@@ -28,7 +28,7 @@ SRE https://www.youtube.com/watch?v=ztIIcXNzMN4
 
 ## Interview
 https://www.youtube.com/watch?v=u17n3UaH82k
-
+https://www.youtube.com/watch?v=ga3nYHWtS14
 ## ADHD
 
 ADHD advantage book
@@ -50,6 +50,7 @@ Obsidian
 https://www.youtube.com/watch?v=6B4Yn2o3UvI
 https://www.youtube.com/watch?v=j2_qc-vxCNY
 https://www.youtube.com/watch?v=LyOIvoHtRCM&list=TLPQMTUwMTIwMjUBCzjWQIL_7g&index=12
+https://www.youtube.com/watch?v=xR5-0XDkwU0
 
 
 how to use media pipe --->
@@ -76,3 +77,13 @@ https://www.youtube.com/watch?v=AWQ6DaCy46U
 
 RAG AI related
 https://www.youtube.com/watch?v=sVcwVQRHIc8
+
+AI for app development
+https://www.youtube.com/watch?v=kDcM_xwmP3Q
+https://www.youtube.com/watch?v=f4-a2li1Dp0
+https://www.youtube.com/watch?v=grc0YSEdUQY
+
+
+addhar architechture
+https://youtu.be/FqriDe2nxlw?si=zErQkTEaOQeE4syH
+

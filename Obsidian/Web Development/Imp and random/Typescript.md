@@ -390,3 +390,57 @@ const teamLead: TeamLead = {
     - Objects shape, contracts, class implementations.
     - Extending or implementing other interfaces.
     - When consistency in object shape is a priority.
+
+
+# Arrays in Ts
+To access arrays in Ts we add [] next to the type
+
+### Ex-1
+Given an array of +ve integers as input, return max value in the array
+```ts
+
+function MaxValue(arr: number[]){
+	let max = 0 ;
+	for(let i=0; i < arr.length; i++){
+		if(arr[i] > max){
+		max = arr[i]
+		}
+	}
+	return max;
+}
+
+// trigger
+console.log(maxValue([1,2,3]));
+```
+
+### Ex-2
+Given a list of users, filter out the users not adult
+```ts
+interface User{
+	firstName: string;
+	lastName: string;
+	age: number;
+}
+
+function filteredUser(users: User[]){
+	return users.filter(x => x.age >= 18);
+}
+
+console.log(filteredUsers([{
+    firstName: "harkirat",
+    lastName: "Singh",
+    age: 21
+}, {
+    firstName: "Raman",
+    lastName: "Singh",
+    age: 16
+}, ]));
+
+// Alternate Solution
+
+```
+
+# Enumerations(Enums)
+
+
+# Generics

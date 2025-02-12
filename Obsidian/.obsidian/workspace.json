@@ -42,6 +42,21 @@
             }
           },
           {
+            "id": "1c6ae799870893eb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Motion Playlist/Motion Playtlist.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Motion Playtlist"
+            }
+          },
+          {
             "id": "6eb8d31e7a6625f1",
             "type": "leaf",
             "state": {
@@ -62,7 +77,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Typescript.md",
+                "file": "Web Development/Imp and random/Typescript.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
@@ -72,18 +87,33 @@
             }
           },
           {
-            "id": "cb2465d4378dde43",
+            "id": "a6687897854bebe4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web Development/Interview NOTES/TypeScript Interview.md",
+                "file": "Projects/Paytm fullstack.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "TypeScript Interview"
+              "title": "Paytm fullstack"
+            }
+          },
+          {
+            "id": "4be0309b39241f4d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Projects/MetaVerse Project.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "MetaVerse Project"
             }
           },
           {
@@ -160,8 +190,24 @@
               "icon": "lucide-file",
               "title": "React Class"
             }
+          },
+          {
+            "id": "67f5f22fb793cba8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Managerial/Youtube Watchlist.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Youtube Watchlist"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -373,36 +419,37 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "5d470abbdee9dfae",
+  "active": "1c6ae799870893eb",
   "lastOpenFiles": [
     "2025.md",
-    "Cohort Revision 2.0.md",
-    "Typescript.md",
+    "Motion Playlist",
+    "Motion Playlist/Motion Playtlist.md",
+    "Managerial/Youtube Watchlist.md",
     "Projects/Decentralized Medical Records Exchange.md",
-    "Web Development/Interview NOTES/TypeScript Interview.md",
+    "Web Development/Reactjs/React Class.md",
+    "Web Development/Imp and random/Typescript.md",
+    "Cohort Revision 2.0.md",
+    "Coding.md",
+    "Projects/MetaVerse Project.md",
     "Web Development/Imp and random/HTML, CSS.md",
-    "Untitled",
+    "Projects/Paytm fullstack.md",
+    "Projects/Hackathon/Hackathon Presentation.md",
+    "Projects/Hackathon/How to plan a project.md",
+    "Projects/Eye Tracker.md",
+    "Web Development/Web Dev Track.md",
+    "ATS.md",
+    "Web Development/Imp and random/CSS.md",
+    "Web Development/Interview NOTES/TypeScript Interview.md",
+    "Projects/Hackathon",
     "Projects/Assets/Pasted image 20250207211213.png",
     "Web Development/Javascript/Async Await Promise.md",
-    "Web Development/Reactjs/React Class.md",
     "Web Development/Javascript/JavaScript Basics.md",
     "Projects/AR Visiting Card.md",
     "What goverment done to our money.md",
-    "Projects/MetaVerse Project.md",
     "IB, banking and finance.md",
     "Projects/AI Gym trainer.md",
-    "Managerial/Youtube Watchlist.md",
-    "Projects/Hackathon Presentation.md",
-    "Projects/How to plan a project.md",
     "Startup.md",
-    "Web Development/Javascript/Async Await - freecodecamp.md",
-    "Excalidraw/Drawing 2025-02-02 17.25.35.excalidraw.md",
     "Excalidraw",
-    "ATS.md",
-    "Projects/Eye Tracker.md",
-    "Web Development/Imp and random/Tailwind CSS.md",
-    "Managerial/WEB3 Reading List.md",
-    "Web Development/Web Dev Track.md",
     "Web Development/UI-UX",
     "Managerial",
     "Assets/Excalidraw",
@@ -411,7 +458,6 @@
     "Projects/Assets",
     "Web Development/Interview",
     "WEB-3/bitcoin.pdf",
-    "Mental Wellbeing",
     "WEB-3/Assets/Pasted image 20240818025615.png",
     "WEB-3/Assets/Pasted image 20240818134401.png",
     "Pasted image 20240810220842.png",
