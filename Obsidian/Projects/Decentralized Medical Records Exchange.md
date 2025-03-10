@@ -35,13 +35,13 @@
 
 ```
 dmre-project/
-│── backend/             # Express.js API for blockchain interaction
+│── backend/                 # Express.js API for blockchain interaction
 │   ├── controllers/             # Business logic (Web3 functions)
 │   ├── models/                  # Optional DB schema
 │   ├── routes/                  # API routes
 │   ├── services/                # Smart contract interaction
 │   ├── app.js                   # Express entry file
-│   ├── config.js            # Configuration (RPC URLs, private keys)
+│   ├── config.js                # Configuration (RPC URLs, private keys)
 │   ├── package.json             # Backend dependencies
 │
 │── blockchain/                # Hardhat setup for Solidity contracts
@@ -206,10 +206,6 @@ The architecture consists of **5 key layers**:
 	- **Smart Contracts:** Solidity (ERC-721 for medical NFTs).
 	- **Security:** OpenZeppelin (for safe contract implementation).
 
-### Decentralized Storage
-- Role 
-	- Stores the NFT
-	- Blockchain stores the IPFS hash not the actual file
 
 - Features
 	- prevents tampering
@@ -224,14 +220,15 @@ The architecture consists of **5 key layers**:
 ### Backend
 - Role 
 	- Acts as the middleman btwn frontend and blockchain
-	- Handles off-chain metadata storage
+		  // interacts with the blockchain
+	- Handles off-chain metadata     // database storage
+	- User Authentication   // Metamask
 	- calls smart contract on behalf on the frontend
+	- **Decentralized Storage**
+	   Handling File Upload to IPFS / FileCoin
+		- Stores the NFT
+		- Blockchain stores the IPFS hash not the actual file 
 
-- Features
-	- API endpoint 
-	- IPFS integration -- for storage
-	- Off-Chain metadata storage
-	- Auth & JWT for API security
 
 - Tech Stack
 	- **Database (Optional):** MongoDB/PostgreSQL (For storing logs, metadata)
@@ -240,6 +237,37 @@ The architecture consists of **5 key layers**:
 	- **Smart Contract Access Control:** ERC-721 NFTs
 	- **Encryption:** AES-256
 	  
+#### **Key Features to Implement in the Backend**
+
+1. **Smart Contract Interaction**:    
+    - Use `ethers.js` or `web3.js` to interact with your deployed smart contract.        
+    - Expose APIs for minting NFTs, granting/revoking access, and fetching data.
+        
+2. **User Authentication**:    
+    - Use MetaMask or WalletConnect for wallet-based authentication.        
+    - Verify the user’s wallet address and signature.
+    - AUTH and JWT 
+        
+3. **IPFS/Filecoin Integration**:    
+    - Use libraries like `ipfs-http-client` to upload medical records to IPFS.
+    - Store the IPFS hash (CID) in the smart contract.
+    - IPFS integration for storage
+        
+4. **Database for Off-Chain Data**:    
+    - Use PostgreSQL or MongoDB to store metadata like user profiles, access logs, or permissions.
+    - Database integration for Off-Chain MEtadata storage
+        
+5. **APIs**:    
+    - Create RESTful APIs oendpoints for the frontend to interact with.
+      
+#### **Example API Endpoints**
+
+- `POST /api/upload`: Upload medical records to IPFS.    
+- `POST /api/mint`: Mint a new NFT for a patient.    
+- `POST /api/grant-access`: Grant access to a doctor.    
+- `GET /api/records`: Fetch medical records for a patient.
+
+
 ### Frontend
 - Role 
 	- allows users to mint medical records as NFT
@@ -320,18 +348,24 @@ The architecture consists of **5 key layers**:
 		✅ If a test **fails**, it means there's a bug in your smart contract logic.
 	
 	Deploy in testnet
-	🔹 **Use Polygon Mumbai Testnet**
+	-  **Use Polygon Mumbai Testnet**
 	- Fund your **MetaMask wallet** with test MATIC from a **faucet**.
 	- Deploy using Hardhat or Remix IDE.
 
 	test the contract on polygon testnet ---
 	`npx hardhat run scripts/deploy.js --network mumbai`
+	
+	for the verification of the contract that is being deployed its imp to verify it using etherscan or polygonscan as we are using polygon
 
 	- Save the **contract address** and **ABI** for integration.
 	- Verify the contract on **Polygonscan** (optional but recommended).
 
-- backend development, Integartion
-
+- backend development, Integration
+     - create an node app with the api endpoints
+       open the endpoints to being integrate with the frontend
+     - add authentication in it
+     - add database to store off-chain data
+     - add metamask connection features, etc
 
 - frontend development, Integration
 

@@ -7,7 +7,6 @@
 - [ ] DOM
 - [ ] React 
 	- [ ] wrapper component
-	- [ ] Todo list
 	- [ ] Todo app
 - [ ] React Hooks
 	- [ ] useState
@@ -17,7 +16,7 @@
 	- [ ] useCallback
 - [ ] Context API, Prop Drilling
 - [ ] Recoil
-- [ ] Axios vs fetch
+- [x] Axios vs fetch
 - [ ] Custom Hooks
 - [ ] wk 11,12
 	- [ ] serverless backends
@@ -27,7 +26,7 @@
 	- [ ] sql relation-ship
 	- [ ] prisma
 	- [ ] connection polling in serverless
-	- [ ] advnc ts
+	- [x] advnc ts
 - [x] ts
 - [ ] next js, monorepo
 - [ ] next-auth
@@ -52,6 +51,7 @@
 - [ ] bash video by Lisha wk2
 - [ ] postgres cls
       // not much coding knowledge just theory of dbms
+      // better study DBMS for further understanding
 - [ ] certificates mangment(AWS)
 - [ ] webRTC  
       // not much use case of webrtc

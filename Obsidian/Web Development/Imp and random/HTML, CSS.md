@@ -13,6 +13,16 @@ hard stuff ----
 - **Attribute** - An attribute is a piece of text that is placed inside the opening tag of an HTML element. It is used to provide additional information about the element.
 - **Element** - An element is a piece of text that is enclosed in angle brackets and can have attributes. It is used to define the content of an HTML document.
 
+In HTML, the main difference between a `<div>` and a `<span>` tag is that a `<div>` is a block-level element, while a `<span>` is an inline element. 
+
+Explanation 
+
+- `<div>`    
+    A `<div>` tag creates a section or division in an HTML document. It can contain other elements like paragraphs, images, links, and even other `<div>`s. `<div>`s are used to wrap large sections of content for styling or layout.
+    
+- `<span>`    
+    A `<span>` tag creates a span of text within a larger text block. It can only contain other inline elements like text, images, links, or other `<span>`. `<span>` are used to style or target specific parts of text without altering the surrounding content.
+    
 ## HTML tags for text
 
 - `<p>` - Paragraph
@@ -148,57 +158,6 @@ Some examples of HTML5 attributes are:
 - `<audio>` - Audio
 - `<source>` - Source
 
----
----
-# CSS
-
-cascading style sheets
-
-common styling attributes - 
-- font-size
-- color  
-	  - gives font colour to the text
-- background
-	  - gives bacground colour to the element
-- border-radius
-	  - rounded border shapes
-- border
-	  - this tells how the border is 
-	    border: 1px solid black // gives a solid black border
-	    border: 1px dotted black // gives a dotted black border
-- padding 
-		- space from the top or bottom; // inside the div
-		- 
-- margin
-	  - space added outside the div
-	    margin: 50px;
-	    // means outside the div element 50px will be added to the top to the right, left , bottom
-- box-shadow
-	  - gives shadow to the box element
-
-Example of the code --
-```css
-<h1 style= "
-font-size: 100px;
-color: red;
-background: aqua; 
-border-radius: 10px; 
-padding: 10px; 
-margin: 20px;
-box-shadow: 2px 10px 10px black;
-">
-hi there ;
-</h1>
-```
-
-previously we position elements by using padding 
-padding-left = 10px
-padding-right = 20 px
-this are the not the optimum ways so we use
-
-- flexbox
-- grid
-  
 
 ---
 ---

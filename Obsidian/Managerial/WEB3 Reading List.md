@@ -47,8 +47,13 @@ Books ---
 	- [ ] 
 - [ ] 
 
+### Figma Web Design
 - [ ] [ Web Design ](https://www.youtube.com/watch?v=VP7yuZI1pAY)
 - [ ] figma webprodigies
+- [ ] [Freecode camp Figma](https://youtu.be/jwCmIBJ8Jtc?si=IpD4EOmEE1Ha-6oB)
+- [ ] Another [Figma Resource](https://www.youtube.com/watch?v=JNZ0nkC7Unk&list=PLwGdqUZWnOp0TlgR6uPLR1s6X_w65FlTl) not so imp btw or necessary
+- [ ] [UI Course](https://www.youtube.com/watch?v=84ZRDm3CEeI&list=PLrtjkLnNjGHu09kr99red3iVlzV2wrR9Q)
+- [ ] 
 
 ---
 # **Web Projects**
@@ -58,9 +63,6 @@ Books ---
 		- [ ] Merchant // PART-2
 	- [ ] Excahnge project
 	- [ ] Zapier
-- [ ] *Ideated projects
-	- [ ] ARVR Visiting Card //for HTF
-	- [ ] 
 - [ ] [build you own X](https://github.com/codecrafters-io/build-your-own-x?tab=readme-ov-file)
 - [ ] 
 
@@ -68,8 +70,6 @@ Books ---
 # **Core Computer Science**
 ### Typescript
 https://www.typescriptlang.org/docs/handbook/intro.html#about-this-handbook
-
-
 
 
 
@@ -87,4 +87,16 @@ LazyVIM
 -  https://www.lazyvim.org/
 - https://lazyvim-ambitious-devs.phillips.codes/course/chapter-1/
 
+Obsidian
+https://www.youtube.com/watch?v=6B4Yn2o3UvI
+https://www.youtube.com/watch?v=j2_qc-vxCNY
+https://www.youtube.com/watch?v=LyOIvoHtRCM&list=TLPQMTUwMTIwMjUBCzjWQIL_7g&index=12
+https://www.youtube.com/watch?v=xR5-0XDkwU0
+
+neovim obsidian config -- using neovim for the note taking 
+https://www.youtube.com/watch?v=DgKI4hZ4EEI
+https://www.youtube.com/watch?v=1Lmyh0YRH-w
+https://www.youtube.com/watch?v=5ht8NYkU9wQ&t=123s
+https://www.youtube.com/watch?v=oLpGahrsSGQ
+ 
 

@@ -19,3 +19,5 @@ All about how to use motion for animations
 	1. creating a Pro template
 	2. just to understand design flow how the working , etc
 
+### Class 1
+[[Motion Class 1]]

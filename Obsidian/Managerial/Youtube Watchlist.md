@@ -46,12 +46,6 @@ https://www.youtube.com/watch?v=eq2qtpU1Ox4&list=TLPQMTIwMTIwMjU8buHfwNq0pA&inde
 https://www.youtube.com/watch?v=SjB11PaK5ak&list=TLPQMTEwMTIwMjUyii3JnxR4mA&index=19
 
 
-Obsidian
-https://www.youtube.com/watch?v=6B4Yn2o3UvI
-https://www.youtube.com/watch?v=j2_qc-vxCNY
-https://www.youtube.com/watch?v=LyOIvoHtRCM&list=TLPQMTUwMTIwMjUBCzjWQIL_7g&index=12
-https://www.youtube.com/watch?v=xR5-0XDkwU0
-
 
 how to use media pipe --->
 - how to integrate whole body model, posture detection, etc
@@ -69,6 +63,9 @@ https://www.youtube.com/watch?v=DsCi3VN1b4o
 https://www.youtube.com/watch?v=WZ8g6deOyAk
 https://www.youtube.com/watch?v=alasmVziivs
 
+million dollar landing page
+https://www.youtube.com/watch?v=VJTq6ASxedo
+
 money making lead generation
 https://www.youtube.com/watch?v=zokaHBMI6vg&list=TLPQMDMwMjIwMjUP9_-H2Vs19w&index=5
 
@@ -82,8 +79,21 @@ AI for app development
 https://www.youtube.com/watch?v=kDcM_xwmP3Q
 https://www.youtube.com/watch?v=f4-a2li1Dp0
 https://www.youtube.com/watch?v=grc0YSEdUQY
-
+https://www.youtube.com/watch?v=bAAbrhb3QoM&list=TLPQMTkwMjIwMjX83ISUaRw2cw&index=13
+https://www.youtube.com/watch?v=Gjos--a5Npw
+https://www.youtube.com/watch?v=U_X4erx9ISY
+https://www.youtube.com/watch?v=2PjmPU07KNs
 
 addhar architechture
 https://youtu.be/FqriDe2nxlw?si=zErQkTEaOQeE4syH
 
+## AI Agents 
+
+yt Channels
+https://www.youtube.com/@nateherk/videos
+https://www.youtube.com/@SimonHoiberg/videos
+
+
+UI Design using AI
+https://www.youtube.com/watch?v=D0PRkgSh47M
+https://www.youtube.com/watch?v=CrW1zSZtn1E

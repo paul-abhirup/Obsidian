@@ -2,7 +2,7 @@
   "accentColor": "#913fe4",
   "theme": "obsidian",
   "cssTheme": "AnuPpuccin",
-  "baseFontSize": 18,
+  "baseFontSize": 15,
   "nativeMenus": true,
   "textFontFamily": "JetBrainsMono Nerd Font Propo,Hack Nerd Font Mono,0xProto Nerd Font",
   "enabledCssSnippets": [
