@@ -97,3 +97,8 @@ https://www.youtube.com/@SimonHoiberg/videos
 UI Design using AI
 https://www.youtube.com/watch?v=D0PRkgSh47M
 https://www.youtube.com/watch?v=CrW1zSZtn1E
+
+
+philosophy 
+https://www.youtube.com/watch?v=32z8Ax1j-Q4
+https://www.youtube.com/watch?v=iJFIzE3i0X0

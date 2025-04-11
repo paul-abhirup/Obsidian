@@ -1,7 +1,7 @@
 ##### Refferences
-- [Serverless Backend](https://projects.100xdevs.com/tracks/eooSv7lnuwBO6wl9YA5w/serverless-1) notes
-- [how cloudfare workers work](https://developers.cloudflare.com/workers/reference/how-workers-works/#:~:text=Though%20Cloudflare%20Workers%20behave%20similarly,used%20by%20Chromium%20and%20Node)
-- [couldfare workers examples ,tutorials](https://developers.cloudflare.com/workers/examples/)
+- [x] [Serverless Backend](https://projects.100xdevs.com/tracks/eooSv7lnuwBO6wl9YA5w/serverless-1) notes
+- [ ] [how cloudfare workers work](https://developers.cloudflare.com/workers/reference/how-workers-works/#:~:text=Though%20Cloudflare%20Workers%20behave%20similarly,used%20by%20Chromium%20and%20Node)
+- [ ] [couldfare workers examples ,tutorials](https://developers.cloudflare.com/workers/examples/)
 - [hono doc](https://hono.dev/docs/getting-started/cloudflare-workers)
 ## Initialize a Worker
 using cloudfare gui worker to deploy app
@@ -44,9 +44,9 @@ export default {
 
 ```ts
 //routing is difficult to implement in workers like this way 
-// no clean routing like express
-//app.get()
-//app.post()
+	// no clean routing like express
+		//app.get()
+		//app.post()
  
 export default {
 	async fetch(request: Request, env: Env, ctx: ExecutionContext): Promise<Response> {
@@ -70,7 +70,10 @@ export default {
 ```
 
 cloudfare doesn't gives a routing library / http server like express in nodeJs
-classic serverless - one that doesnt have their own runtime
+
+Using wrangler environment 
+// wrangler is the runtime environment for the cloudflare worker 
+like nodejs for express apps
 ```js
 //login in the cloudfare accn in cli
 npx wrangler login
@@ -80,6 +83,9 @@ npx wrangler whoami
 
 //to run it locally
 npm run dev
+
+//After creating the hono-app and writing all the code of it 
+// use this to deploy it in the cludflare worker
 
 //delpoy the app in internet
 wrangler delpoy
@@ -98,7 +104,7 @@ npm create hono@latest my-app
 
 cd my-app
 
-npm i
+npm install
 ```
 
 ```ts
@@ -109,6 +115,7 @@ const app = new Hono()
 
 // (c) = context object
 // (c) works both as (req,res)
+
 app.get('/get', (c) => {
   // body, headers, query params, middlewares, connecting to a database, etc
   return c.json({
@@ -142,6 +149,9 @@ app.get('/', async (c) => {
 
 export default app
 ```
+
+Notice ---
+You have to return c.text value always
 
 ## Middleware
 https://hono.dev/docs/guides/middleware
@@ -191,38 +201,48 @@ npm install --save-dev prisma
 
 npx prisma init
 
-// create a schema 
+// create a schema
 
+// create migrations
 npx prisma migrate dev --name init
 
-// use the Prisma Accelerate API key in the env variable
+//signup to prisma accelerate and generate an API key
+DATABASE_URL="prisma://accelerate.prisma-data.net/?api_key=your_key"
+//use this database url for the app development
 
+// use the Prisma Accelerate API key in the env variable
 npm install @prisma/extension-accelerate
 
 npx prisma generate --no-engine
 
 //setup ur code
-
 //deploy
 
 ```
 
-wrangler.toml
-- all env variables used in index.ts
-- contains the env variables that will be used by the cloudflare workers        ---> connection pooling string 
-- so the env variables stored here are being used by the /backend/hono-app running in the cloudflare workers , running in cloudflare runtime
 
-.env 
-- contains the original database url 
-- as it need to generate the migration, schema files 
-- deals with anything that runs in the CLI  --> nodeJS
-	- EX-  prisma migrate , Prisma generate
+database schema
+```sql
+generator client {
+  provider = "prisma-client-js"
+}
 
-Prisma Schema --->original DB url ---> .env
-index.ts(hono app) --->connection pooling --->  wrangler.toml
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id       Int    @id @default(autoincrement())
+  name     String
+  email    String
+	password String
+}
+
+```
 
 
-Example of a hono app using pooling url to connect to DB
+## Example of a hono app using pooling url to connect to DB
 ```ts
 //index.ts
 
@@ -262,4 +282,20 @@ app.post('/', async (c) => {
 export default app
 ```
 
-Majority of this difficult concepts are cleared while making medium app
+
+wrangler.toml
+- all env variables used in index.ts
+- contains the env variables that will be used by the cloudflare workers        ---> connection pooling string 
+- so the env variables stored here are being used by the `/backend/hono-app` running in the cloudflare workers , running in cloudflare runtime
+
+.env 
+- contains the original database url 
+- as it need to generate the migration, schema files 
+- deals with anything that runs in the CLI  --> nodeJS
+	- EX---  prisma migrate , Prisma generate
+
+Prisma Schema --->original DB url ---> .env
+index.ts(hono app) --->connection pooling --->  wrangler.toml
+
+
+## Majority of this difficult concepts are cleared while making medium app
