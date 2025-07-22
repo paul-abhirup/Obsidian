@@ -220,7 +220,7 @@ npm i chalk@latest
 So to allow dependencies to update latest packages we use ( ~ )
 " ~1.3.8"
 
-"npm init "
+"npm init"
 this create package.json --- which has all the dependencies required
 package.json
 - app info 
@@ -245,3 +245,25 @@ npm config delete init-author-name
 npm i --production 
 //install produiction dependency
 ```
+
+
+```js
+const fs = require("fs");
+const path = require("path");
+
+const filePath = path.join(__dirname, "a.txt");
+// __dirname  // is a global variable that contains the directory name of the current module
+// path.join ---- is used to create a path that is compatible with the current operating system
+
+// console.log(__dirname, "a.txt");
+
+fs.readFile(filePath, "utf8", (err, data) => {
+  if (err) {
+    console.log(err);
+  } else {
+    console.log(data);
+  }
+});
+
+```
+

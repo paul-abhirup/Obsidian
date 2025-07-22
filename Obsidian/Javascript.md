@@ -1,0 +1,73 @@
+- inline js using script tag
+- adding js to a html css site
+- using console.log
+- using js inside output element
+
+contents ---
+- console and comments
+- variables 
+- numbers
+- boolean
+- comparison operators
+- string manipultaion
+- type conversion 
+- conditional statement
+- switch statement
+- for loop
+- while loop 
+- do while loop
+- logical operator
+- array
+- array technique
+- js onjects
+- functions
+- function types
+- callaback func
+- variable scope
+- object methods
+- json
+- data and time 
+- setinterval and settimeout
+- intermediate
+- template string
+- arrow func
+- enhanced object literals
+- default params
+- spread operator
+- rest operator
+- array destructuring
+- object destructuring
+- nested destructuring
+- destructuring
+- ternary operator
+- for in loop
+- for of loop 
+- for each method
+- map helper
+- filter helper
+- find helper
+- every and some helper
+- map data structure
+- sets data structure
+- symbol data structure 
+- DOM
+- accessing DOM elements
+- manipulating text content
+- managing classes 
+- working with attributes
+- naviagting sibling
+- modifying styles
+- creating DOM elements 
+- removing DOM elements
+- DOM events
+- Event handling
+- keyboard events
+- DOM events
+- DOM projects
+- OOP
+- This keyword
+- Factory function constructor function 
+- 
+- GSAP
+- Animation using GSAP
+- 

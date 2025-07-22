@@ -1,0 +1,86 @@
+imp topics used here ---
+	- logic
+	- Combinatorics
+
+Syllabus ---
+- [ ] FPS
+- [ ] DBMS Architechture
+- [ ] Data model
+- [ ] ER model
+- [ ] Entity types
+- [ ] Keys
+	- [ ] super key
+	- [ ] candidate key
+	- [ ] primary key
+	- [ ] secondary key
+- [ ] Relationships
+	- [ ] Unary Relationshiop
+	- [ ] binary relationship
+		// Cardinality //---->>>
+		- [ ] max cardinatlity
+			- [ ] one to one 
+			- [ ] many to one 
+			- [ ] one to one
+			- [ ] many to many
+		- [ ] min cardinatlity        // partial participation
+		- [ ] Generalization
+	- [ ] ternary relationship
+	- [ ] Constraints on Generalization and specalization
+		- [ ] multiple constraints
+		- [ ] disjoint constraints
+	- [ ] Completeness Specalization
+	- [ ] Aggregation 
+	- [ ] Relation Model 
+		- [ ] Properties of relation
+	- [ ] Converting ER models to tables
+	- [ ] Converting Relationship into tables
+	- [ ] Converting Generalization and Specialization into tables
+- [ ] Relational Algebra
+	- [ ] Basic operators
+		- [ ] unary 
+		- [ ] projection
+		- [ ] union
+	- [ ] Derived Operators
+		- [ ] Intersection
+		- [ ] Join
+			- [ ] Inner Join
+				- [ ] Theta join
+				- [ ] Equi join
+				- [ ] Natural join
+				- [ ] semi join
+				- [ ] anti-join
+			- [ ] Outer Join
+				- [ ] left outer join
+				- [ ] right outer join
+				- [ ] full outer join
+		- [ ] Division operator
+		- [ ] Null in relational algebra
+			- [ ] selection & null
+			- [ ] Join & null
+			- [ ] Projection & null
+			- [ ] union,set difference, intersection & null
+	- [ ] Modification in Db
+		- [ ] Deletion
+		- [ ] Insertion
+		- [ ] Updation
+	- [ ] Relational Calculus
+		- [ ] Tuple Relational Calculus
+		- [ ] Domain Relational Calculus
+- [ ] SQL
+	- [ ] SELECT
+	- [ ] FROM
+	- [ ] SET operators
+		- [ ] Union
+		- [ ] intersection
+		- [ ] Minus <-> Except
+	- [ ] IN
+	- [ ] CONTAINS
+	- [ ] EXISTS and NOT EXISTS
+	- [ ] UNIQUE
+	- [ ] JOINS 
+- [ ] Attribute types
+	- [ ] prime and non prime
+- [ ] Transaction
+	- [ ] properties
+
+

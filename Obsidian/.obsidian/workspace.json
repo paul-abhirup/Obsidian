@@ -42,96 +42,82 @@
             }
           },
           {
-            "id": "9b5e645e8b0b0b81",
+            "id": "bcecab6efa759311",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web Development/Imp and random/Typescript.md",
+                "file": "Web Development/Interview NOTES/JavaScript Interview.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Typescript"
+              "title": "JavaScript Interview"
             }
           },
           {
-            "id": "be4bee9e33fc4d16",
+            "id": "5ecb2217457e1c68",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DSA/Basic Math/Sum of all divisors.md",
+                "file": "Javascript.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Sum of all divisors"
+              "title": "Javascript"
             }
           },
           {
-            "id": "3ce725233a0f2295",
+            "id": "5ef23b685ee5b9aa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSS.md",
+                "file": "GATE 2026/Mathematics.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "CSS"
+              "title": "Mathematics"
             }
           },
           {
-            "id": "a543f19cd28e451e",
+            "id": "0bc85b94ae241ec7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web Development/Deployment/Serverless backend.md",
+                "file": "PyGame Tutorial.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Serverless backend"
+              "title": "PyGame Tutorial"
             }
           },
           {
-            "id": "0f0d7cf1789351f6",
+            "id": "a49bf100500e53bb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web Development/Reactjs/React Class.md",
+                "file": "Design File.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "React Class"
-            }
-          },
-          {
-            "id": "6aaa9e77b7fe306a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "React Revsion.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "React Revsion"
+              "title": "Design File"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -163,7 +149,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "freel",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -197,7 +183,7 @@
       {
         "id": "3db29a5e75d77c76",
         "type": "tabs",
-        "dimension": 31.86046511627907,
+        "dimension": 33.10745401742498,
         "children": [
           {
             "id": "b72daf7ed9be8d02",
@@ -288,7 +274,7 @@
       {
         "id": "7a0e291125147b34",
         "type": "tabs",
-        "dimension": 33.372093023255815,
+        "dimension": 28.55759922555663,
         "children": [
           {
             "id": "f84345b7d45c8e03",
@@ -305,7 +291,7 @@
       {
         "id": "17c7ece738ddf8e1",
         "type": "tabs",
-        "dimension": 34.76744186046511,
+        "dimension": 38.33494675701839,
         "children": [
           {
             "id": "be7abcf5ea8bb47c",
@@ -321,8 +307,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 288,
-    "collapsed": true
+    "width": 351
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -342,34 +327,35 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "de912fd40091c9a5",
+  "active": "bcecab6efa759311",
   "lastOpenFiles": [
+    "Web Development/Interview NOTES/Next JS Interview.md",
+    "Web Development/Interview NOTES/JavaScript Interview.md",
     "Managerial/2025.md",
-    "GATE 2026/GATE 2026.md",
-    "React Revsion.md",
-    "GATE 2026/Engineering Mathematics.md",
-    "GATE 2026/DSA.md",
-    "GATE 2026/Discrete Mathematics.md",
-    "GATE 2026/Digital Logic.md",
-    "GATE 2026/DBMS.md",
-    "GATE 2026/Computer Networks.md",
-    "GATE 2026",
-    "Web Development/Imp and random/Typescript.md",
-    "computer networks.md",
-    "Web Development/Deployment/Serverless backend.md",
-    "Web Development/Deployment/AWS Deploying EC2.md",
-    "Web Development/Imp and random/Tailwind CSS Cohort.md",
-    "Web Development/Javascript/JavaScript Basics.md",
-    "Web Development/Javascript/Async Await Promise.md",
-    "Web Development/Reactjs/React Class.md",
-    "DSA/Basic Math/Palindrome Number.md",
-    "DSA/Basic Math/Sum of all divisors.md",
-    "DSA/Basic Math/Reversal of a Number.md",
-    "DSA/Basic Math/Count Digits.md",
-    "CSS.md",
-    "Managerial/Todo 1.md",
+    "Javascript.md",
+    "GATE 2026/Mathematics.md",
+    "PyGame Tutorial.md",
+    "Design File.md",
+    "Unity game dev.md",
+    "Trail Tacking.md",
+    "NeuroSCAN 360.md",
     "Web Development/Imp and random/Node JS.md",
-    "Web Development/DataBase/Prisma.md",
+    "Project List.md",
+    "Projects/Hackathon/Event Ticketing System.md",
+    "GATE 2026/GATE 2026.md",
+    "Managerial/Youtube Watchlist.md",
+    "Web Development/Remote Job, freelancing.md",
+    "GATE 2026/Computer Networks.md",
+    "Projects/HackHound 3.0.md",
+    "IB, banking and finance.md",
+    "GATE 2026/TOC.md",
+    "GATE 2026/COA.md",
+    "GATE 2026/Aptitude.md",
+    "Managerial/WEB3 Reading List.md",
+    "DSA/Basic Math/Sum of all divisors.md",
+    "Mathematics.md",
+    "NOTES.md",
+    "GATE 2026",
     "DSA/Pattern",
     "DSA/Basic Math",
     "DSA",

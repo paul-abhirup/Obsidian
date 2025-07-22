@@ -1,0 +1,101 @@
+Syllabus--
+- [x] Basics
+	- [x] OSI Model
+	- [x] functions of different layers
+	- [x] TCP/IP Model
+- [x] Signals
+	- [x] Basics
+	- [x] Composite Signal
+	- [x] Signal Encoding Techniques
+- [x] Serial and Parallel Transmission
+- [x] Multiplexing
+	- [x] Types of multiplexing
+		- [x] fdm
+		- [x] wdm
+		- [x] tdm
+			- [x] types of tdm -- sync and async
+- [x] Data Link Layer
+	- [x] Error detection and correction
+	- [x] Hamming Distance
+		- [x] min hamming distance
+	- [x] Linear Block Codes
+		- [x] simple parity check code
+		- [ ] 2d parity checking code
+		- [ ] Cyclic code
+		- [ ] CRC
+			- [ ] polynomial notion in CRC
+			- [ ] chosing divisor in CRC
+		- [ ] Checksum
+		- [ ] hamming codes
+	- [ ] Min hamming dist for error correction
+- [ ] Framing
+	- [ ] character oriented approach
+	- [ ] bit oriented approach
+- [ ] Flow and error control
+      //Protocols
+	- [ ] Stop and wait ARQ
+	- [ ] Goback ARQ
+	- [ ] Selective Repeat ARQ
+- [ ] Sliding Window Protocol
+- [ ] Multiple Access Protocol
+	- [ ] Random Access protocol
+		- [ ] Aloha
+			- [ ] Pure Aloha
+			- [ ] Slotted Aloha
+		- [ ] CSMA
+		- [ ] IFS
+		- [ ] Contention window
+	- [ ] Controlled Access protcol 
+		- [ ] Reservation 
+		- [ ] Polling
+	- [ ] Channelization Protocol
+- [ ] Ethernet
+	- [ ] IEEE 802.3
+	- [ ] Connecting Devices
+- [ ] Switching in networking
+	- [ ] Packet switching
+	- [ ] Layer 2 switch
+	- [ ] Layer 3 switch
+	- [ ] Gateway
+	- [ ] Broadcast domain and collision domain
+- [ ] IP Addressing   N/W Layer
+	- [ ] IPv4
+		- [ ] classfull addressing
+			- [ ] class A
+			- [ ] class B
+			- [ ] class C
+			- [ ] class D
+			- [ ] class E
+		- [ ] subnetting classfull addressing
+		- [ ] classless addressing
+		- [ ] subnetting classless addressing
+		- [ ] supernetting in classless addressing
+	- [ ] Special Ip address
+	- [ ] NAT
+	- [ ] IPv4 header
+	- [ ] Freagmentation
+	- [ ] MTU
+	- [ ] Ipv4 options
+	- [ ] Supporting Protocols of Ip
+		- [ ] ARP
+		- [ ] RARP
+		- [ ] BOOTP
+		- [ ] DHCP
+		- [ ] ICMP
+			- [ ] Categories of messages
+				- [ ] Error Reporting messages
+					- [ ] Destination Host unreachable
+					- [ ] destination port unreachable
+					- [ ] source quench
+				- [ ] Query messages
+		- [ ] IGMP
+	- [ ] Delivery: forwarding and routing
+		- [ ] Forwarding
+		- [ ] Routing
+- [ ] transport Layer
+	- [ ] TCP 
+	- [ ] UDP
+- [ ] DNS
+- [ ] EMAIL
+- [ ] FTP 
+- [ ] HTTP
