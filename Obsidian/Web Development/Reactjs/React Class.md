@@ -26,7 +26,7 @@ function App() {
       
       //here the parent <> </>, ie React Fragment
       // <React.Fragment> </React.Fragment>
-	//is returning multiple children component //this helps in returning multiple children
+	  //is helping returning multiple children component 
 
 //// or 
 	 <div>     
@@ -84,11 +84,11 @@ function Header({title}){
 }
  export default App
 ```
-// this showed us re-rendering of components without re-rendering of the page
+
 ## Rerendering only the imp components
-Now we will be re-rendering only the important elements
 ```jsx
-//////////////////////re-rendering only the important elements//////////////////////////
+////////re-rendering only the important elements////////////
+
 import React, { useState } from 'react'
 
 function App(){
@@ -98,7 +98,7 @@ function App(){
 //rest dont need re-render //saving compute
 
 
-// there was a issue// headerWithButtons didnt worked //camel-casing
+//there was a issue   //headerWithButtons didnt worked //camel-casing
   return (
     <>
     <HeaderWithButtons/>
@@ -134,61 +134,46 @@ export default App
 
 ```
 
-//
-While you technically can write functions inside functions in React, it's generally not recommended and considered an anti-pattern for a few reasons:
+// While you technically can write functions inside functions in React, it's generally not recommended and considered an anti-pattern for a few reasons:
 
 1. Performance Implications:
 
 - **Re-creation on Every Render:**
-    
     Every time the parent component re-renders, the nested function is re-created. This can lead to unnecessary computations and impact performance, especially if the function is complex or interacts with the component's state.
     
 - **Memoization Difficulty:**
-    
     React's `memo` and `useMemo` hooks are powerful tools for optimizing performance by preventing unnecessary re-renders. However, these optimizations can be harder to implement effectively with nested functions.
     
-
 2. Readability and Maintainability:
-
 - **Increased Complexity:**
-    
     Nested functions can make your component code less readable and harder to understand, especially as the complexity of your component grows.
     
 - **Debugging Challenges:**
-    
     Debugging nested functions can be more challenging than debugging functions defined at the top level.
     
-- **Testing Difficulty:**
-    
+- **Testing Difficulty:**    
     Writing unit tests for nested functions can be more complicated, as you might need to mock the parent function or access variables within the nested scope.
     
 
-3. Best Practices and Ecosystem:
-
-- **Functional Components:**
-    
+2. Best Practices and Ecosystem:
+- **Functional Components:**    
     React's functional components and hooks encourage a more declarative style of programming. Defining functions at the top level aligns with this style and makes your code easier to reason about.
     
-- **Separation of Concerns:**
-    
+- **Separation of Concerns:**    
     Defining functions separately promotes a clear separation of concerns, making your code more modular and maintainable.
     
 
 Alternatives to Nested Functions:
-
 - **Helper Functions:**
-    
     Define helper functions outside the component that can be reused as needed.
     
 - **Custom Hooks:**
-    
     If you need to encapsulate complex logic and share it across components, consider creating custom hooks.
-    
+
 ## react.memo
 memo lets you to skip re-rendering of the component if its props are not changed
 ```jsx
-///////////using react.memo to prevent re-rendering
-//////////////////////
+//////////using react.memo to prevent re-rendering//////////////
 
 import React, {memo}, { useState } from 'react'
 
@@ -248,7 +233,7 @@ function App(){
     <CardWrapper innerComponent={<TextComponent />} />
     <CardWrapper innerComponent={<TextComponent2 />} />
   </div>
-  // both the components are rendered inside the CardWrapper component
+  //both the components are rendered inside the CardWrapper component
   //both the components are passed as props to the CardWrapper component
 }
 
@@ -257,7 +242,7 @@ function App(){
 
 function CardWrapper({innerComponent}){
   //create a div which has a border 
-  // inside the div render the props
+  //inside the div render the props
 
   return <div style={{border:"2px solid black", padding: 20}}>
   {innerComponent}
@@ -280,9 +265,7 @@ export default App
 ```
 
 ```jsx
-/**
- * Wrapper components Best practices
- */
+/**  Wrapper components Best practices  */
 
 import React, { useState } from 'react'
 
@@ -337,7 +320,261 @@ export default App
 
 ```
 
-## To-do app
+## 1. To-do Reuploaded
+```jsx
+
+//-----------------------------------------------------------
+
+/*
+// in react u cant declare a global variable like this and use it to change state 
+// u have to use hooks to change the state
+
+let state = {
+  count : 0 
+}
+
+function App () {
+  return(
+    <div>{state.count}</div>
+  )
+}
+export default App
+*/
+
+
+//------------------------------------------------------------
+
+/*
+// here we are creasting a normal counter button
+
+import React from 'react';
+import { useState } from 'react';
+
+function App(){
+
+  const [count , setCount ] = useState(0); //by using setState(0) we are setting state to 0
+
+  function onClickHandler(){
+
+    // state.count = state.count + 1 ;
+    //this is not used due to wrong nature of setting the variable 
+
+    setCount(count + 1);
+
+  }
+
+  return (
+    <div>
+    <button onClick={onClickHandler}>Counter {count}</button>
+    </div>
+  )
+}
+
+export default App
+
+*/
+
+//-----------------------------------------------------
+
+/*
+
+import React from 'react';
+import { useState } from 'react';
+
+function App(){
+
+  const [count , setCount ] = useState(0);
+
+
+  return (
+
+    <div>
+    // Parent Component
+    <CustomButton count={count} setCount={setCount} />
+    // here u have created 2 props of CustomButton function props.count and props.setCount
+
+    <CustomButton count={count + 1} setCount={setCount} />
+    <CustomButton count={count - 1} setCount={setCount} />
+    <CustomButton count={count * 100} setCount={setCount} />
+    </div>
+  )
+}
+
+// Props are like messages or arguments you pass from one React component (parent) to another (child). They allow you to send data (text, numbers, objects, even functions) from the parent component to the child component, telling it what information to display or use.
+
+//Child component
+function CustomButton(props){
+
+// its not getting the state as an input but it is getting the props as an input
+
+  function onClickHandler() {
+    props.setCount(props.count + 1);
+  }
+
+
+  return(
+    <button onMouseOver={onClickHandler}>
+      Counter {props.count}
+    </button>
+  )  
+}
+
+//this is better way because u can reuse it 
+
+export default App
+
+*/
+
+//------------------------------------------------------------
+
+/*
+
+import React from 'react';
+import { useState } from 'react';
+
+// todo application
+// todo
+// {
+//   todo: [{title: 'todo 1',description: 'buy milk', completed : false}]
+// }
+//think how to render multiple todo items
+
+function App(){
+
+  const [todos , setTodos ] = useState([
+    {
+      title: 'go to gym',
+      description: '100 pushups',
+      completed: false
+    },{
+      title: 'do DSA',
+      description: 'leetcode',
+      completed: false
+    }
+  ]);
+
+  // doing in an ugly way
+  // stringify the object and then parse it
+  //this stringify the todo and renders them
+
+  return (
+    <div>
+    {JSON.stringify(todos)}
+    </div>
+  )
+}
+
+// basic structure of a todo
+// {
+//   title: 'go to gym',
+//   description: '100 pushups',
+//   completed: false
+// }
+
+//Child component
+
+function Todo(props){
+  return(
+    <div>
+    <h1>{props.title}</h1>
+    <h2>{props.description}</h2>
+
+    </div>
+  )
+}
+
+//this is better way because u can reuse it 
+
+export default App
+*/
+
+
+// --------------------------------------------------------------- //
+
+
+import React from 'react';
+import { useState } from 'react';
+
+function App() {
+
+  const [todos, setTodos] = useState([
+    {
+      title: 'go to gym',
+      description: '100 pushups',
+      completed: false
+    }, {
+      title: 'do DSA',
+      description: 'leetcode',
+      completed: false
+    }
+  ]);
+
+
+  // this is ugly way where u have to enter all the todos manually
+  /*
+  return (
+    <div>
+    <Todo title='harkirat' description='hello' />
+    <Todo title='harkirat' description='hello' />
+
+    <Todo title={todos[0].title} description={todos[0].description} />
+    <Todo title={todos[1].title} description={todos[1].description} />
+    </div>
+  )
+  */
+
+  // any time a parent re-renders its child also re-renders
+  function addTodo() {
+    // [todos] =  [1,2]
+    //[...todos, 3] => [1,2,3]
+    setTodos([...todos, {
+      title: 'code more',
+      description: 'banging keyboard hardcore'
+    }])
+  }
+
+  return (
+    <div>
+      <button onClick={addTodo}>
+        Add Todo
+      </button>
+      {/* this is a smater way to do it as it iterates over the todos array and renders the todos without any manual work */}
+      {todos.map((todo) => {
+        return <Todo title={todo.title} description={todo.description} />
+      })}
+      <Dummybutton></Dummybutton>
+    </div>
+  )
+}
+
+function Dummybutton() {
+  console.log("i am a child re-rendering due to parents getting re-rendered")
+}
+
+// basic structure of a todo
+// {
+//   title: 'go to gym',
+//   description: '100 pushups',
+//   completed: false
+// }
+
+//component
+
+function Todo(props) {
+  return (
+    <div>
+      <h1>{props.title}</h1>
+      <h2>{props.description}</h2>
+    </div>
+  )
+}
+
+//this is better way because u can reuse it 
+
+export default App
+
+```
+## 2. To-do app
 ``` jsx
 
 ///////////////////   to-do app  Class notes   ///////////////////////////
@@ -490,8 +727,6 @@ function ToDo({ title, description }) {
 
 export default App
 ```
-
-## **TODO app**
 
 ## **React Hooks** 
 side effects --->

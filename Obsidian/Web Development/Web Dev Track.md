@@ -32,7 +32,7 @@ js --
 
 ## **Backend**
 - **TypeScript
-	-  Interfaces
+	- Interfaces
 	- Types
 	- Arrays 
 	- Enumeration
