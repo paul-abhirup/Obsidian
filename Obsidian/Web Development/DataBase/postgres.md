@@ -196,7 +196,7 @@ WHERE user_id = 1;
 ```
 
 #### Transactions
-transactions  in SQL to ensure either both the user information and address goes in, or neither does
+transactions in SQL to ensure either both the user information and address goes in, or neither does
 
 Sql queries
 ```sql

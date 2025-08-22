@@ -47,13 +47,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web Development/Web Dev Track.md",
+                "file": "UNESCO.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Web Dev Track"
+              "title": "UNESCO"
             }
           },
           {
@@ -62,13 +62,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web Development/Reactjs/React Class.md",
+                "file": "Projects/Hackathon/How to plan a project.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "React Class"
+              "title": "How to plan a project"
+            }
+          },
+          {
+            "id": "2b087fc1da88942a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "UNESCO.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "UNESCO"
             }
           },
           {
@@ -77,43 +92,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web Development/Interview NOTES/React Interview.md",
+                "file": "Design File.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "React Interview"
-            }
-          },
-          {
-            "id": "9e361935f3f055e2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Web Development/Interview NOTES/NodeJS Interview.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "NodeJS Interview"
-            }
-          },
-          {
-            "id": "bcecab6efa759311",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Web Development/Interview NOTES/JavaScript Interview.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "JavaScript Interview"
+              "title": "Design File"
             }
           },
           {
@@ -160,9 +145,39 @@
               "icon": "lucide-file",
               "title": "BASH"
             }
+          },
+          {
+            "id": "e72ccb24a473846b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Web Development/Interview NOTES/React Interview.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "React Interview"
+            }
+          },
+          {
+            "id": "8d5b64ecf43d648b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Web Development/Interview NOTES/Typescript.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Typescript"
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -219,7 +234,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 302.5104179382324
+    "width": 300.5275688171387
   },
   "right": {
     "id": "51c96f36758cc938",
@@ -228,7 +243,7 @@
       {
         "id": "3db29a5e75d77c76",
         "type": "tabs",
-        "dimension": 33.10745401742498,
+        "dimension": 36.803874092009686,
         "children": [
           {
             "id": "b72daf7ed9be8d02",
@@ -319,7 +334,7 @@
       {
         "id": "7a0e291125147b34",
         "type": "tabs",
-        "dimension": 28.55759922555663,
+        "dimension": 24.858757062146893,
         "children": [
           {
             "id": "f84345b7d45c8e03",
@@ -336,7 +351,7 @@
       {
         "id": "17c7ece738ddf8e1",
         "type": "tabs",
-        "dimension": 38.33494675701839,
+        "dimension": 38.33736884584342,
         "children": [
           {
             "id": "be7abcf5ea8bb47c",
@@ -352,7 +367,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 317.5
+    "width": 343.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -372,46 +387,46 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "f0b67f2a69662370",
+  "active": "8d5b64ecf43d648b",
   "lastOpenFiles": [
-    "Web Development/Interview NOTES/JavaScript Interview.md",
-    "Web Development/Interview NOTES/React Interview.md",
-    "Web Development/UI-UX/UI-UX.md",
-    "Web Development/Web Dev Track.md",
-    "Web Development/Reactjs/React Class.md",
     "Web Development/Interview NOTES/TypeScript Interview.md",
-    "Web Development/Interview NOTES/Next JS Interview.md",
-    "Web Development/Interview NOTES/NodeJS Interview.md",
-    "Web Development/Imp and random/Typescript.md",
+    "Managerial/2025.md",
+    "UNESCO.md",
+    "Web Development/Web Dev Track.md",
+    "Projects/Hackathon/How to plan a project.md",
+    "Projects/Hackathon/Hackathon Presentation.md",
+    "Projects/Hackathon/Event Ticketing System.md",
+    "Projects/AI Gym trainer.md",
+    "Projects/Paytm fullstack.md",
+    "Web Development/Reactjs/React Class.md",
+    "Web Development/Interview NOTES/React Interview.md",
+    "Web Development/DataBase/Prisma.md",
+    "Mental Wellbeing/All bad.md",
+    "Design File.md",
+    "Web Development/DataBase/postgres.md",
+    "Web Development/UI-UX/UI-UX.md",
+    "JS Test PAPER.md",
+    "IB, banking and finance.md",
+    "BASH.md",
+    "DSA/DSA Resources.md",
+    "Javascript.md",
+    "Project List.md",
+    "Unity game dev.md",
+    "Web Development/Untitled/Open Source.md",
+    "Web Development/Javascript/Async Await Promise.md",
+    "Web Development/Javascript/JavaScript Theory.md",
+    "Web Development/UI-UX/assets/Pasted image 20250812122735.png",
+    "Pasted image 20250812122810.png",
+    "Pasted image 20250812122744.png",
+    "Web Development/UI-UX/assets/Pasted image 20250812121519.png",
     "Web Development/UI-UX/assets/Pasted image 20250811182235.png",
     "Web Development/UI-UX/assets/Pasted image 20250811182225.png",
     "Web Development/UI-UX/assets/Pasted image 20250811182215.png",
     "Web Development/UI-UX/assets/Pasted image 20250811182038.png",
     "Web Development/UI-UX/assets/Pasted image 20250811182023.png",
     "Web Development/UI-UX/assets/Pasted image 20250811181947.png",
-    "Web Development/UI-UX/assets/Pasted image 20250811165951.png",
-    "Web Development/UI-UX/assets/Pasted image 20250811165905.png",
-    "Web Development/UI-UX/assets/Pasted image 20250811165817.png",
-    "Web Development/UI-UX/assets/Pasted image 20250811140405.png",
     "Web Development/UI-UX/assets",
-    "Untitled",
-    "BASH.md",
-    "Web Development/Imp and random/Vim.md",
-    "Web Development/DevOps Roadmap.md",
-    "Javascript.md",
-    "note.md",
-    "JS Test PAPER.md",
-    "Managerial/2025.md",
-    "Web Development/SWE Topics Revision.md",
-    "Web Development/Reactjs/Recoil.md",
-    "Design File.md",
-    "GATE 2026/Mathematics.md",
-    "IB, banking and finance.md",
-    "Web Development/Imp and random/CSS.md",
-    "Managerial/Cohort Revision 2.0.md",
-    "Web Development/Javascript/JavaScript Theory.md",
-    "Web Development/UI-UX/Web Design.md",
-    "Web Development/Motion Playlist/Motion Class 1.md",
+    "Web Development/Untitled",
     "GATE 2026",
     "DSA/Pattern",
     "DSA/Basic Math",

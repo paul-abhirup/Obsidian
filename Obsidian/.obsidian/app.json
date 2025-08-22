@@ -2,7 +2,7 @@
   "promptDelete": false,
   "alwaysUpdateLinks": true,
   "showInlineTitle": true,
-  "vimMode": true,
+  "vimMode": false,
   "showLineNumber": false,
   "readableLineLength": true,
   "spellcheck": false,
@@ -11,6 +11,8 @@
     "pageSize": "A4",
     "landscape": false,
     "margin": "0",
-    "downscalePercent": 100
-  }
+    "downscalePercent": 93
+  },
+  "strictLineBreaks": false,
+  "tabSize": 5
 }

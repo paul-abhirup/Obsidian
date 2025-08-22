@@ -120,7 +120,7 @@ Output in the terminal
 ```
 why the id is changed or jumped 
 - due to errornous queries
-#### Update Data in the users table
+### Update Data in the users table
 ```ts
 import { PrismaClient } from "@prisma/client";
 const prisma = new PrismaClient();
@@ -154,7 +154,9 @@ updateUser("admin1", {
 
 output
 ```bash
-❯ node dist/index.js
+ node dist/index.js
+ 
+
 {
   id: 4,
   username: 'admin1',

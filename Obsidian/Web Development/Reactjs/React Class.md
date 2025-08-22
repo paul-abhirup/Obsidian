@@ -1,4 +1,4 @@
-#react 
+#react #ReactInterview
 ## React-Returns
 
 create a react app that has a header component 
@@ -51,7 +51,7 @@ export default App
 ```
 
 ## Re-rendering in React
-  - every time a parent re-renders all the children re-render as well. 
+  - every time a parent re-renders all the children re-render as well.
   - so its important to render only the important elements and not all of them
 ```jsx
 /////////////RE-rendering in React//////////////////
@@ -153,7 +153,6 @@ export default App
     
 - **Testing Difficulty:**    
     Writing unit tests for nested functions can be more complicated, as you might need to mock the parent function or access variables within the nested scope.
-    
 
 2. Best Practices and Ecosystem:
 - **Functional Components:**    
@@ -209,7 +208,7 @@ export default App
 
 the button , title , parent ----- re-renders
 but the multiple children (that didn't changed ) don't re-render
-if a parent re-renders all child also re-renders until wrapped inside a react .memo
+if a parent re-renders all child also re-renders until wrapped inside a react.memo
 so what u have wrapped inside a react.memo if that doesn't gets updated the following static children also don't gets updated 
 ex-
 ```jsx
@@ -345,7 +344,7 @@ export default App
 //------------------------------------------------------------
 
 /*
-// here we are creasting a normal counter button
+// here we are creating a normal counter button
 
 import React from 'react';
 import { useState } from 'react';

@@ -151,7 +151,6 @@ js --
 
 
 
-
 ## **Deployment
 - Serverless
 	- cloudfare Workers
@@ -218,9 +217,7 @@ js --
 - Docker Swarm
 - Kafka
 - Kubernates
-- 
-
-
+-   
 
 **App Dev lifecycle**
 	- os
